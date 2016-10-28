@@ -25,7 +25,7 @@ p[property="rdfs:comment"] {
 #index .c8 {}
 #index a {}
 #index p {
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 1rem;
     padding: 0px;
 }
 #index h1 {
@@ -46,13 +46,20 @@ p[property="rdfs:comment"] {
 .title {
     font-size: 3rem;
 }
+#siteloader h1,
+#siteloader h2,
+#siteloader h3,
+#siteloader h4,
+#siteloader h5 {
+    margin-top: .5rem;
+}
 ul,
 ol,
 dl {
     margin-bottom: 0rem;
 }
 [class$="-1 start"] {
-    margin-left: 2rem;
+    margin-left: 2.25rem;
 }
 [class$="-2 start"] {
     margin-left: 3rem;
@@ -75,4 +82,10 @@ ol[class$="-2 start"] {
 p,
 span {
     text-align: justify;
+}
+#siteloader p {
+    margin-bottom: 0px;
+}
+#siteloader table {
+    margin-left: 1rem;
 }
