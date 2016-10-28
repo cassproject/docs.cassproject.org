@@ -58,26 +58,44 @@ ol,
 dl {
     margin-bottom: 0rem;
 }
-[class$="-1 start"] {
+[class$="-1 start"],
+[class$="-1"] {
     margin-left: 2.25rem;
 }
 [class$="-2 start"] {
     margin-left: 3rem;
 }
-ul[class$="-1 start"] {
+ul[class$="-1 start"],
+ul[class$="-1"] {
     list-style-type: circle;
 }
-ol[class$="-1 start"] {
+ol[class$="-1 start"],
+ol[class$="-1"] {
     list-style-type: lower-latin;
 }
-[class$="-2 start"] {
+[class$="-2 start"],
+[class$="-2"] {
     margin-left: 3rem;
 }
-ul[class$="-2 start"] {
+ul[class$="-2 start"],
+ul[class$="-2"] {
     list-style-type: square;
 }
-ol[class$="-2 start"] {
+ol[class$="-2 start"],
+ol[class$="-2"] {
     list-style-type: lower-roman;
+}
+[class$="-3 start"],
+[class$="-3"] {
+    margin-left: 4rem;
+}
+ul[class$="-3 start"],
+ul[class$="-3"] {
+    list-style-type: disc;
+}
+ol[class$="-3 start"],
+ol[class$="-3"] {
+    list-style-type: decimal;
 }
 p,
 span {

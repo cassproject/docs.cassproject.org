@@ -53,6 +53,10 @@ if (QueryString["doc"] != null)
                 $(this).html("&nbsp;");
             }
         });
+        $("p").each(function () {
+            if ($(this).children("span").length >= 2 && $(this).children("span").first().text().trim().match(":$"))
+                $(this).children("span").first().css("font-weight", "bold");
+        });
     });
 $(document).foundation();
 $("a[data-open]").click(function (ev) {
