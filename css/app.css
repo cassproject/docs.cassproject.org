@@ -1,0 +1,75 @@
+.reveal .row {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+div[property="rdfs:label"] {
+    font-weight: bold;
+}
+p[property="rdfs:comment"] {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*titles*/
+
+#index .c0,
+#index .c1,
+#index .c2,
+#index .c3,
+#index .c4,
+#index .c5,
+#index .c6,
+#index .c7,
+#index .c8 {}
+#index a {}
+#index p {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+#index h1 {
+    font-size: 2rem;
+}
+#index h2 {
+    font-size: 1.75rem;
+}
+#index h3 {
+    font-size: 1.5rem;
+}
+#index h4 {
+    font-size: 1.25rem;
+}
+#index h5 {
+    font-size: 1.0rem;
+}
+ul,
+ol,
+dl {
+    margin-bottom: 0rem;
+}
+[class$="-1 start"] {
+    margin-left: 2rem;
+}
+[class$="-2 start"] {
+    margin-left: 3rem;
+}
+ul[class$="-1 start"] {
+    list-style-type: circle;
+}
+ol[class$="-1 start"] {
+    list-style-type: lower-latin;
+}
+[class$="-2 start"] {
+    margin-left: 3rem;
+}
+ul[class$="-2 start"] {
+    list-style-type: square;
+}
+ol[class$="-2 start"] {
+    list-style-type: lower-roman;
+}
+p,
+span {
+    text-align: justify;
+}
