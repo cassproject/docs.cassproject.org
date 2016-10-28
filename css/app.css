@@ -43,6 +43,9 @@ p[property="rdfs:comment"] {
 #index h5 {
     font-size: 1.0rem;
 }
+.title {
+    font-size: 3rem;
+}
 ul,
 ol,
 dl {
