@@ -49,7 +49,7 @@ if (QueryString["doc"] != null)
             $("#siteloader").html("<center><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wikidata_logo_under_construction_sign_wide.svg/1024px-Wikidata_logo_under_construction_sign_wide.svg.png'><br>This document has not yet been published. Please check back later.</center>");
         }
         $("p span").each(function () {
-            if ($(this).text().trim() == "") {
+            if ($(this).text().trim() == "" && $(this).html().indexOf("&nbsp;") == -1) {
                 $(this).html("&nbsp;");
             }
         });
