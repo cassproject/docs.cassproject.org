@@ -24,12 +24,13 @@ var QueryString = function () {
 $('#index').load('https://docs.google.com/document/d/1ajX4qXnLSjfvNr-2CpuLzCkR9bBLJqPJ83TxdbSF8Z8/pub?embedded=true', null, function () {
     $("style").remove();
     $("a").each(function () {
-        if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/document/d/") != -1) {
-            var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
-            var cnt = $(this).attr("href").indexOf("&sa=") - start;
-            $(this).attr("href", "/index.html?doc=" +
-                $(this).attr("href").substr(start, cnt).replace("/edit", ""));
-        }
+        if ($(this).attr("href") != null)
+            if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/document/d/") != -1) {
+                var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
+                var cnt = $(this).attr("href").indexOf("&sa=") - start;
+                $(this).attr("href", "/index.html?doc=" +
+                    $(this).attr("href").substr(start, cnt).replace("/edit", ""));
+            }
     });
 });
 if (QueryString["doc"] == null)
@@ -38,12 +39,13 @@ if (QueryString["doc"] != null)
     $('#siteloader').load('https://docs.google.com/document/d/' + QueryString["doc"] + '/pub?embedded=true', null, function () {
         $("style").remove();
         $("a").each(function () {
-            if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/document/d/") != -1) {
-                var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
-                var cnt = $(this).attr("href").indexOf("&sa=") - start;
-                $(this).attr("href", "/index.html?doc=" +
-                    $(this).attr("href").substr(start, cnt).replace("/edit", ""));
-            }
+            if ($(this).attr("href") != null)
+                if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/document/d/") != -1) {
+                    var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
+                    var cnt = $(this).attr("href").indexOf("&sa=") - start;
+                    $(this).attr("href", "/index.html?doc=" +
+                        $(this).attr("href").substr(start, cnt).replace("/edit", ""));
+                }
         });
         if ($("#siteloader").html().trim() == "") {
             $("#siteloader").html("<center><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wikidata_logo_under_construction_sign_wide.svg/1024px-Wikidata_logo_under_construction_sign_wide.svg.png'><br>This document has not yet been published. Please check back later.</center>");
