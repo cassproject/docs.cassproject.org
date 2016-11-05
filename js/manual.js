@@ -44,7 +44,7 @@ if (QueryString["doc"] != null)
                     var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
                     var cnt = $(this).attr("href").indexOf("&sa=") - start;
                     $(this).attr("href", "/index.html?doc=" +
-                        $(this).attr("href").substr(start, cnt).replace("/edit", ""));
+                        decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
                 }
         });
         if ($("#siteloader").html().trim() == "") {

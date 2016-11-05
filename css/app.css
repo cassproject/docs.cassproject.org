@@ -28,24 +28,6 @@ p[property="rdfs:comment"] {
     margin: 0px 0px 0px 1rem;
     padding: 0px;
 }
-#index h1 {
-    font-size: 2rem;
-}
-#index h2 {
-    font-size: 1.75rem;
-}
-#index h3 {
-    font-size: 1.5rem;
-}
-#index h4 {
-    font-size: 1.25rem;
-}
-#index h5 {
-    font-size: 1.0rem;
-}
-.title {
-    font-size: 3rem;
-}
 #siteloader h1,
 #siteloader h2,
 #siteloader h3,
@@ -104,9 +86,10 @@ ol[class$="-3 start"],
 ol[class$="-3"] {
     list-style-type: decimal;
 }
-p,
-span {
+p span,
+li span {
     text-align: justify;
+    text-justify: inter-word;
 }
 #siteloader p {
     margin-bottom: 0px;
@@ -114,57 +97,79 @@ span {
 #siteloader table {
     margin-left: 1rem;
 }
+.title {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 28px;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 30px;
+    line-height: 2.7rem;
+}
 h1 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 24px;
+    font-size: 2rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 26.4px;
+    line-height: 2.2rem;
     color: #980000;
 }
 h2 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 22px;
+    font-size: 1.75rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 24px;
+    line-height: 1.85rem;
     color: #666666;
 }
 h3 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 20px;
+    font-size: 1.5rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 22px;
+    line-height: 1.6rem;
 }
 h4 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 18px;
+    font-size: 1.25rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 19px;
+    line-height: 1.35rem;
 }
 h5 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 16px;
+    font-size: 1.1rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 17px;
+    line-height: 1.2rem;
 }
 p,
 li {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     font-size: 14px;
+    font-size: 1.0rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     line-height: 20px;
 }
 hr {
-    margin-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
