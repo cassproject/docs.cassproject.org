@@ -94,75 +94,60 @@ li span {
 #siteloader p {
     margin-bottom: 0px;
 }
-#siteloader table {
-    margin-left: 1rem;
-}
+body {}
 .title {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 28px;
     font-size: 2.5rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 30px;
     line-height: 2.7rem;
 }
 h1 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 24px;
     font-size: 2rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 26.4px;
     line-height: 2.2rem;
     color: #980000;
 }
 h2 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 22px;
     font-size: 1.75rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 24px;
     line-height: 1.85rem;
     color: #666666;
 }
 h3 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 20px;
     font-size: 1.5rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 22px;
     line-height: 1.6rem;
 }
 h4 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 18px;
     font-size: 1.25rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 19px;
     line-height: 1.35rem;
 }
 h5 {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 16px;
     font-size: 1.1rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 17px;
     line-height: 1.2rem;
 }
 p,
 li {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 14px;
     font-size: 1.0rem;
     font-style: normal;
     font-variant: normal;
@@ -172,4 +157,18 @@ li {
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+iframe {
+    border 0px;
+}
+#siteloader table {
+    margin-left: 1rem;
+}
+#siteloader table tr td p span {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
+    font-size: 11px!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 12px!important;
 }
