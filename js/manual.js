@@ -29,7 +29,7 @@ $('#index').load('https://docs.google.com/document/d/1ajX4qXnLSjfvNr-2CpuLzCkR9b
                 var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
                 var cnt = $(this).attr("href").indexOf("&sa=") - start;
                 $(this).attr("href", "/index.html?doc=" +
-                    $(this).attr("href").substr(start, cnt).replace("/edit", ""));
+                    decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
             }
     });
 });
@@ -55,10 +55,19 @@ if (QueryString["doc"] != null)
                 $(this).html("&nbsp;");
             }
         });
+        $("#siteloader").find("span").each(function () {
+            if ($(this).parent().children("span").length > 1 && $(this).children("img").length == 1) {
+                $(this).css("float", "right");
+
+                $(this).css("margin-left", "1rem");
+            }
+        });
         $("p").each(function () {
             if ($(this).children("span").length >= 2 && $(this).children("span").first().text().trim().match(":$"))
                 $(this).children("span").first().css("font-weight", "bold");
         });
+        if (location.hash != null && location.hash != "")
+            location.href = location.hash;
     });
 $(document).foundation();
 $("a[data-open]").click(function (ev) {

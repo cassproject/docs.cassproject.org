@@ -53,6 +53,13 @@ p[property="rdfs:comment"] {
 #siteloader h5 {
     margin-top: .5rem;
 }
+#index h1,
+#index h2,
+#index h3,
+#index h4,
+#index h5 {
+    margin-top: .5rem;
+}
 ul,
 ol,
 dl {
@@ -106,4 +113,58 @@ span {
 }
 #siteloader table {
     margin-left: 1rem;
+}
+h1 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: #980000;
+}
+h2 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #666666;
+}
+h3 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+h4 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 19px;
+}
+h5 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 17px;
+}
+p,
+li {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+hr {
+    margin-bottom: 0px;
 }
