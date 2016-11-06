@@ -163,8 +163,17 @@ iframe {
 }
 #siteloader table {
     margin-left: 1rem;
+    width: calc(100% - 1rem);
 }
 #siteloader table tr td p span {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
+    font-size: 11px!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 12px!important;
+}
+#siteloader table tr td ul li span {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
     font-size: 11px!important;
     font-style: normal;
