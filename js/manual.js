@@ -24,18 +24,42 @@ var QueryString = function () {
 $('#index').load('https://docs.google.com/document/d/1ajX4qXnLSjfvNr-2CpuLzCkR9bBLJqPJ83TxdbSF8Z8/pub?embedded=true', null, function () {
     $("style").remove();
     $("a").each(function () {
-        if ($(this).attr("href") != null)
+        if ($(this).attr("href") != null) {
             if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/document/d/") != -1) {
                 var start = "https://www.google.com/url?q=https://docs.google.com/document/d/".length;
                 var cnt = $(this).attr("href").indexOf("&sa=") - start;
                 $(this).attr("href", "/index.html?doc=" +
                     decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
             }
-        if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/") != -1) {
-            var start = "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/".length;
-            var cnt = $(this).attr("href").indexOf("&sa=") - start;
-            $(this).attr("href", "/index.html?she=" +
-                decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
+            else if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/") != -1) {
+                var start = "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/".length;
+                var cnt = $(this).attr("href").indexOf("&sa=") - start;
+                $(this).attr("href", "/index.html?she=" +
+                    decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
+            }
+            else {
+                var l = document.createElement("a");
+                l.href = $(this).attr("href");
+                var query_string = {};
+                var query = l.search.substring(1);
+                var vars = query.split("&");
+                for (var i = 0; i < vars.length; i++) {
+                    var pair = vars[i].split("=");
+                    // If first entry with this name
+                    if (typeof query_string[pair[0]] === "undefined") {
+                        query_string[pair[0]] = decodeURIComponent(pair[1]);
+                        // If second entry with this name
+                    } else if (typeof query_string[pair[0]] === "string") {
+                        var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+                        query_string[pair[0]] = arr;
+                        // If third or later entry with this name
+                    } else {
+                        query_string[pair[0]].push(decodeURIComponent(pair[1]));
+                    }
+                }
+                if (query_string.q != null)
+                    $(this).attr("href", query_string.q);
+            }
         }
     });
 });
@@ -56,11 +80,35 @@ if (QueryString["she"] == null && QueryString["doc"] != null)
                     $(this).attr("href", "/index.html?doc=" +
                         decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
                 }
-                if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/") != -1) {
+                else if ($(this).attr("href").indexOf("https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/") != -1) {
                     var start = "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/".length;
                     var cnt = $(this).attr("href").indexOf("&sa=") - start;
                     $(this).attr("href", "/index.html?she=" +
                         decodeURIComponent($(this).attr("href").substr(start, cnt).replace("/edit", "")).replace("heading=", ""));
+                }
+                else
+                {
+                    var l = document.createElement("a");
+                    l.href = $(this).attr("href");
+                    var query_string = {};
+                    var query = l.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i = 0; i < vars.length; i++) {
+                        var pair = vars[i].split("=");
+                        // If first entry with this name
+                        if (typeof query_string[pair[0]] === "undefined") {
+                            query_string[pair[0]] = decodeURIComponent(pair[1]);
+                            // If second entry with this name
+                        } else if (typeof query_string[pair[0]] === "string") {
+                            var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+                            query_string[pair[0]] = arr;
+                            // If third or later entry with this name
+                        } else {
+                            query_string[pair[0]].push(decodeURIComponent(pair[1]));
+                        }
+                    }
+                    if (query_string.q != null)
+                        $(this).attr("href", query_string.q);
                 }
             }
         });
