@@ -1,10 +1,10 @@
 # Creating and Editing
 
-**Assertion management is only available to logged in users, ensure you are logged in to the application before continuing.**
+**Assertion management is only available to logged in users, ensure it is logged in to the application before continuing.**
 
 ## Enabling Assertion Management
 
-Open any framework and you should be presented with a *manage assertions* button in the top toolbar
+Open any framework and the user should be presented with a *manage assertions* button in the top toolbar
 
 ![Manage Assertions Button](/v1.5/authoring/manage-assertions-button.png)
 
@@ -14,7 +14,7 @@ To return to the framework editing mode, simply press the *stop managing asserti
 
 ## Choosing a Subject
 
-You can choose to make assertions about yourself, or another user in the system. In order to change the subject of your assertions, click the *myself* button and select a new user from the resulting dialog.
+The system allows choose to make assertions about yourself, or another user in the system. In order to change the subject of the assertions, click the *myself* button and select a new user from the resulting dialog.
 
 ![Select Assertion Subject Button](/v1.5/authoring/select-assertion-subject-button.png)
 
@@ -24,7 +24,7 @@ Once in the assertion management mode, the competencies in the framework will di
 
 ![Assertion Editor Controls](/v1.5/authoring/assertion-editor-controls.png)
 
-Clicking the *I can* button will generate a positive assertion for that competency and display an input field allowing you to provide evidence in the form of text or a link to support the assertion. Press *enter* on your keyboard after entering the evidence into the input field to attach it to your assertion.
+Clicking the *I can* button will generate a positive assertion for that competency and display an input field allowing the user to provide evidence in the form of text or a link to support the assertion. Press *enter* on the keyboard after entering the evidence into the input field to attach it to the assertion.
 
 ![Assertion Editor Add Evidence](/v1.5/authoring/assertion-editor-add-evidence.png)
 
@@ -40,7 +40,7 @@ To delete an assertion, simply click the same button that was used to create the
 
 ## Adding a Badge
 
-You can add a badge to a positive assertion by clicking the *add badge* button.
+additions can be made a badge to a positive assertion by clicking the *add badge* button.
 
 ![Assertion Editor Add Badge](/v1.5/authoring/assertion-editor-add-badge.png)
 

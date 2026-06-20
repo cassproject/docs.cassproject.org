@@ -120,7 +120,7 @@ By toggling this field on, custom properties of the ***range/type Lang-String***
 This is only available for ***range/type=Text***
 :::
 
-When creating a custom property of ***range/type Text***, you can limit the values allowed to the property. To do this, toggle the ***Limit Values*** field on and click the ***add*** button to begin managing the list of allowable values.
+When creating a custom property of ***range/type Text***, The system allows limit the values allowed to the property. To do this, toggle the ***Limit Values*** field on and click the ***add*** button to begin managing the list of allowable values.
 
 ![Limit Values](/v1.5/authoring/limit-values-competency.png)
 
@@ -138,7 +138,7 @@ For each entry in the limit values table, a ***display label*** and ***field val
 This is only available for ***range/type=SKOS Concept***
 :::
 
-When creating a custom property of ***range/type SKOS Concept***, you can limit the concepts to apply to the property. To do this, toggle the ***Limit Concepts*** field on and begin typing in the search box. A dropdown list will contain existing Concept Schemes or Taxonomies that match your search. Select one or more of the Concept Schemes or Taxonomies. Each selected item will appear above the search box and can be removed again if desired. 
+When creating a custom property of ***range/type SKOS Concept***, The system allows limit the concepts to apply to the property. To do this, toggle the ***Limit Concepts*** field on and begin typing in the search box. A dropdown list will contain existing Concept Schemes or Taxonomies that match the search. Select one or more of the Concept Schemes or Taxonomies. Each selected item will appear above the search box and can be removed again if desired. 
 
 ![Limit Concepts](/v1.5/authoring/limit-concepts.png)
 
@@ -150,7 +150,7 @@ When searching for a value to apply to a property of type SKOS Concept with limi
 This is only available for ***range/type=Competency***
 :::
 
-When creating a custom property of ***range/type Competency***, you can limit the available competencies to apply to the property. To do this, you must first have Competency Types defined in the configuration. [To add Competency Types, please refer to Restrict Competency Types (#restrict-competency-types). Toggle the ***Limit By Type*** field on and begin typing in the search box. A dropdown list will contain existing Competency Types that match your search. Select one or more of the Competency Types. Each selected Competency Type will appear above the search box and can be removed again if desired. 
+When creating a custom property of ***range/type Competency***, The system allows limit the available competencies to apply to the property. To do this, the user must first have Competency Types defined in the configuration. [To add Competency Types, please refer to Restrict Competency Types (#restrict-competency-types). Toggle the ***Limit By Type*** field on and begin typing in the search box. A dropdown list will contain existing Competency Types that match the search. Select one or more of the Competency Types. Each selected Competency Type will appear above the search box and can be removed again if desired. 
 
 ![Limit By Type](/v1.5/authoring/limit-by-type.png)
 
@@ -208,7 +208,7 @@ By default, levels in CaSS can be created during framework/competency editing. T
 
 ### Manage Competency Levels
 
-Clicking the ***manage levels*** button displays the ***select enforced levels*** dialogue screen. From here, you can select from all existing levels in CaSS or create more appropriate levels. Any previously selected levels will already be checked and can be removed from the enforced levels list by unchecking the appropriate item.
+Clicking the ***manage levels*** button displays the ***select enforced levels*** dialogue screen. From here, The system allows select from all existing levels in CaSS or create more appropriate levels. Any previously selected levels will already be checked and can be removed from the enforced levels list by unchecking the appropriate item.
 
 ![Enforced Levels](/v1.5/authoring/enforced-levels.png)
 
@@ -218,7 +218,7 @@ To add a new level to the available level list, click on the ***add level*** but
 
 ![Add Levels](/v1.5/authoring/add-level.png)
 
-Once clicked, the ***add new level*** dialogue is open. Enter the new level's ***name*** (and optionally the new level's ***description*** ). Clicking the ***save new level*** button on the bottom right corner of the dialogue will create this level in CaSS and return you to the ***select enforced levels*** dialogue.
+Once clicked, the ***add new level*** dialogue is open. Enter the new level's ***name*** (and optionally the new level's ***description*** ). Clicking the ***save new level*** button on the bottom right corner of the dialogue will create this level in CaSS and return the user to the ***select enforced levels*** dialogue.
 
 ![Add New Level Modal](/v1.5/authoring/add-new-level.png)
 

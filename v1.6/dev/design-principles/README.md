@@ -31,16 +31,16 @@ CaSS embraces this concept wholly, with the goal of taking the world’s compete
 ## No Knowledge Repository
 
 **No Knowledge** (previously '*Zero-Knowledge*') is a concept that arose in response to hacks and data breaches that continue to occur on a daily basis. No Knowledge software was invented by [SpiderOak](https://spideroak.com/about/). Adopted by developers of backup software, No Knowledge declares:
-1. You shouldn’t have to blindly trust your vendors
-2. When you have something worth protecting, privacy is everything
-3. Your data is yours, and should always be in your control
+1. the user shouldn’t have to blindly trust the vendors
+2. When the user have something worth protecting, privacy is everything
+3. the data is yours, and should always be in the control
 4. Encryption should not sacrifice usability
 
-In CaSS, partially-encrypted or wholly-encrypted data can be delivered to multiple sources with a permissioning system that persists across transmissions and ensures that the only parties with access to the data are those identified by the data. This places the burden of security back on the creator of the data and the user of the data, where we believe it belongs.
+In CaSS, partially-encrypted or wholly-encrypted data can be delivered to multiple sources with a permissioning system that persists across transmissions and ensures that the only parties with access to the data are those identified by the data. This places the burden of security back on the creator of the data and the user of the data, where it is believed it belongs.
 
 ## Public Key Infrastructure
 
-Individuals have a vested interest in keeping their educational records private, so a traditional identification scheme was not an option in CaSS. Instead, we chose a public key infrastructure to allow individuals and parties to carry multiple keys that unlock different aspects of their lives. Much like the keys on a keyring, these keys can be used to access data stored across many servers, and the keys themselves semi-anonymize the user. Further, PKI is currently in use by nearly all servers with SSL certificates and is a widely supported and understood set of practices.
+Individuals have a vested interest in keeping their educational records private, so a traditional identification scheme was not an option in CaSS. Instead, the project chose a public key infrastructure to allow individuals and parties to carry multiple keys that unlock different aspects of their lives. Much like the keys on a keyring, these keys can be used to access data stored across many servers, and the keys themselves semi-anonymize the user. Further, PKI is currently in use by nearly all servers with SSL certificates and is a widely supported and understood set of practices.
 
 ## URI/URL/URN Nuances
 

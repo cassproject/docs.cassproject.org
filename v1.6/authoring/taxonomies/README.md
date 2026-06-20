@@ -1,4 +1,4 @@
-# Taxonomy Management
+﻿# Taxonomy Management
 
 In Credential Engine instances of CAT, taxonomies are referred to as ***concept schemes***.
 
@@ -6,13 +6,13 @@ Taxonomies can be used to categorize and label competencies in frameworks. The *
 
 ![CAT Taxonomy Management - Taxonomies Icon](/v1.5/authoring/taxonomies-icon.png)
 
-On this page, taxonomies are shown with their names in bold. Beneath the name, you can see when it was created and last modified. If you have permission to edit the taxonomy, it will say ***Editable***.
+On this page, taxonomies are shown with their names in bold. Beneath the name, The system allows see when it was created and last modified. If the user have permission to edit the taxonomy, it will say ***Editable***.
 
 ![CAT Taxonomy Management - Taxonomy List](/v1.5/authoring/taxonomies-list.png)
 
 ## Sorting and Filtering Taxonomies
 
-You can sort and filter the list of taxonomies by clicking the ***filter button*** next to the search bar. The button next to it clears any filters you’ve applied.
+the list can be sorted and filtered of taxonomies by clicking the ***filter button*** next to the search bar. The button next to it clears any filters has been applied.
 
 ![CAT Taxonomy Management - Filter Button](/v1.5/authoring/taxonomies-filter-button.png)
 
@@ -26,55 +26,55 @@ A new taxonomy can be created within CaSS Authoring Tools by pressing the ***Cre
 
 ![CAT Taxonomy Management - Create New Taxonomy](/v1.5/authoring/taxonomies-create-new.png)
 
-When you click on the ***Create New*** button to create a new taxonomy, you will be required to enter a Taxonomy Name to your new taxonomy. Additional properties can be added by clicking the ***add property*** button.
+When the user click on the ***Create New*** button to create a new taxonomy, the system will be required to enter a Taxonomy Name to the new taxonomy. Additional properties can be added by clicking the ***add property*** button.
 
 ## Adding Concepts to Taxonomies
 
-To add concepts to your taxonomy, click the ***add concept*** button below the taxonomy details.
+To add concepts to the taxonomy, click the ***add concept*** button below the taxonomy details.
 
 ![CAT Taxonomy Management - Add Concepts](/v1.5/authoring/taxonomies-add-concepts.png)
 
-You can construct a hierarchy of concepts by checking the box to the left of a concept. The ***add concept*** button text will change to ***add child***, which you can click to place a concept underneath the one you’ve checked.
+A hierarchy can be constructed of concepts by checking the box to the left of a concept. The ***add concept*** button text will change to ***add child***, which The system allows click to place a concept underneath the one has been checked.
 
 ![CAT Taxonomy Management - Add Children to Concepts](/v1.5/authoring/taxonomies-add-child.png)
 
 ## Editing Taxonomies and Concepts
 
-To edit a single concept or taxonomy, hover over the item you want to edit and an ***edit icon*** will appear. Click the icon highlighted in red in the image below.
+To edit a single concept or taxonomy, hover over the item the user want to edit and an ***edit icon*** will appear. Click the icon highlighted in red in the image below.
 
 ![CAT Taxonomy Management - Edit](/v1.5/authoring/taxonomies-edit.png)
 
-A modal will appear and you can edit the taxonomy or concept’s properties. This modal also allows you to delete the concept or taxonomy and export the object. Click ***done*** when you’ve finished making changes.
+A modal will appear and the properties can be edited for the taxonomy or concept’s properties. This modal also allows the user to delete the concept or taxonomy and export the object. Click ***done*** when has been finished making changes.
 
 ![CAT Taxonomy Management - Edit Modal](/v1.5/authoring/taxonomies-edit-modal.png)
 
-You can add new properties to your object from here too by clicking the ***add property*** button at the bottom of the modal. You’ll see a list of properties that are available to add. Select the property you’d like to add, enter in the value, and click ***save property***.
+new properties can be added to the object from here too by clicking the ***add property*** button at the bottom of the modal. the interface will see a list of properties that are available to add. Select the property is intended to add, enter in the value, and click ***save property***.
 
 ![CAT Taxonomy Management - Add a Property](/v1.5/authoring/taxonomies-add-property.png)
 
-If there’s a property you’d like to add to multiple concepts, use the checkboxes to select the concepts you want to edit and click ***edit multiple***.
+If to add a property is intended to add to multiple concepts, use the checkboxes to select the concepts the user want to edit and click ***edit multiple***.
 
 ![CAT Taxonomy Management - Edit Multiple Concepts](/v1.5/authoring/taxonomies-edit-multiple.png)
 
-You’ll see a list of properties that are available to add. Select the property you’d like to add, enter in the value, and click ***apply to multiple***.
+the interface will see a list of properties that are available to add. Select the property is intended to add, enter in the value, and click ***apply to multiple***.
 
 ![CAT Taxonomy Management - Adding Property to Multiple Concepts](/v1.5/authoring/taxonomies-adding-property-to-multiple.png)
 
-If you make a mistake while editing, click the undo button in the bar at the top of the page to revert your most recent changes.
+If the user make a mistake while editing, click the undo button in the bar at the top of the page to revert the most recent changes.
 
 ![CAT Taxonomy Management - Undo Button](/v1.5/authoring/taxonomies-undo-button.png)
 
 ### Changing Concept Hierarchy
 
-There are several ways to move concepts around in the hierarchy. You can drag and drop the concept to the spot you’d like to move it to by hovering over the concept. The icon highlighted in the image below will appear and you can click on it, hold down, and drag the concept to the appropriate position.
+There are several ways to move concepts around in the hierarchy. drag-and-drop is supported for the concept to the spot is intended to move it to by hovering over the concept. The icon highlighted in the image below will appear and The system allows click on it, hold down, and drag the concept to the appropriate position.
 
 ![CAT Taxonomy Management - Drag and Drop](/v1.5/authoring/taxonomies-drag-and-drop.png)
 
-You can also move a concept by selecting its checkbox. Click the cut or copy icon highlighted in red in the image below, select another concept, and click the paste icon.
+The system allows also move a concept by selecting its checkbox. Click the cut or copy icon highlighted in red in the image below, select another concept, and click the paste icon.
 
 ![CAT Taxonomy Management - Cut, Copy, Paste](/v1.5/authoring/taxonomies-cut-copy-paste.png)
 
-With one concept selected, you can move it with keyboard commands as well. You can cut, copy and paste, or use the arrow keys to move it to the position you want.
+With one concept selected, The system allows move it with keyboard commands as well. The system allows cut, copy and paste, or use the arrow keys to move it to the position the user want.
 
 - **Tab** - Switch focus between elements on the page
 - **Space** - Select the element currently in focus
@@ -86,11 +86,11 @@ With one concept selected, you can move it with keyboard commands as well. You c
 
 ## Managing Users and Sharing a Taxonomy
 
-To control who can view and edit a taxonomy you own, click the ***manage users*** button highlighted in red in the image below.
+To control who can view and edit a taxonomy the user own, click the ***manage users*** button highlighted in red in the image below.
 
 ![CAT Taxonomy Management - Manage Users Button](/v1.5/authoring/taxonomies-users-button.png)
 
-You can see who the admins and viewers of your taxonomy are, and add or remove users and organizations. This view also has a shareable link to your taxonomy that you can copy to your clipboard and give to someone else.
+The system allows see who the admins and viewers of the taxonomy are, and add or remove users and organizations. This view also has a shareable link to the taxonomy that The system allows copy to the clipboard and give to someone else.
 
 ![CAT Taxonomy Management - Share Taxonomy and Manage Users](/v1.5/authoring/taxonomies-manage-users.png)
 
@@ -102,7 +102,7 @@ By default, only primary properties are shown on a taxonomy and concepts. To see
 
 ## Exporting a Taxonomy
 
-Once you’ve created or imported a new taxonomy, exporting the taxonomy is a relatively simple process. Users must first view their taxonomies through the ***taxonomy tab*** in the CaSS Authoring Tool and select the desired taxonomy to be exported. Once the taxonomy is selected, users can select the ***export button*** at the top of the screen and will be prompted to choose their desired file format to export that taxonomy.
+Once has been created or imported a new taxonomy, exporting the taxonomy is a relatively simple process. Users must first view their taxonomies through the ***taxonomy tab*** in the CaSS Authoring Tool and select the desired taxonomy to be exported. Once the taxonomy is selected, users can select the ***export button*** at the top of the screen and will be prompted to choose their desired file format to export that taxonomy.
 
 ![CAT Taxonomy Management - Export Button](/v1.5/authoring/exporting-frameworks.png)
 
@@ -110,7 +110,7 @@ Users will be prompted with the window displayed below and can select their desi
 
 ![CAT Taxonomy Management - Export Oprtions](/v1.5/authoring/select-option-export.png)
 
-Once the desired format is selected users can select the ***export file button*** at the bottom right corner of the window and the taxonomy will be downloaded to your computer or opened in a new tab of your browser.
+Once the desired format is selected users can select the ***export file button*** at the bottom right corner of the window and the taxonomy will be downloaded to the computer or opened in a new tab of the browser.
 
 ## Importing a Taxonomy
 
@@ -122,4 +122,4 @@ After clicking the ***import taxonomy button*** users will be prompted with a ne
 
 ![CAT Taxonomy Management - Import Page](/v1.5/authoring/taxonomy-import-page.png)
 
-Once imported users can select the process files button and the desired taxonomy will be imported into the your CaSS Authoring Tool database.
+Once imported users can select the process files button and the desired taxonomy will be imported into the the CaSS Authoring Tool database.

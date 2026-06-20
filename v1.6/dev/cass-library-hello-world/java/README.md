@@ -1,7 +1,7 @@
 # Java
 
 :::danger
-Currently, there are no Java libraries that deploy the CaSS APIs in Java directly. If you would like to contribute or begin developing one, see the [contributor section](/dev/contributing/) of this guide.
+Currently, there are no Java libraries that deploy the CaSS APIs in Java directly. If the user would like to contribute or begin developing one, see the [contributor section](/dev/contributing/) of this guide.
 :::
 
 To use the CaSS Javascript Libraries, **Nashorn** (a javascript environment) can be employed. The following configuration requires use of Java 8 and CaSS Library version 4 or under.
@@ -160,9 +160,9 @@ function fetchFrameworks(){
 
 Now, complete use of the CaSS JS Library should be possible.
 
-If you are only intending to consume CaSS data, the path is much simpler.
+If only intending to consume CaSS data, the path is much simpler.
 
-You will need a library for working with JSON and one for working with HTTP. In this example, we are using **Apache Commons**.
+the system will need a library for working with JSON and one for working with HTTP. In this example, we are using **Apache Commons**.
 
 
 
@@ -234,7 +234,7 @@ public class App {
 }
 ```
 
-3. If you are implementing the Repository API, it may of benefit to view some compatible encryption examples. The following classes have been tested and are compatible with the Javascript Library:
+3. If implementing the Repository API, it may of benefit to view some compatible encryption examples. The following classes have been tested and are compatible with the Javascript Library:
    * AES Encryption
    * AES Decryption
    * RSA Key Generation

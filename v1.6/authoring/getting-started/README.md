@@ -2,23 +2,22 @@
 
 ## About
 
-Welcome to the documentation for **CaSS Authoring Tools** - an open source collaborative interface for authoring and managing competency frameworks.
+This section documents **CaSS Authoring Tools** - an open source collaborative interface for authoring and managing competency frameworks.
 
-* **Collaborate with your team**
-    * CaSS Authoring Tools supports user and group access to your authored competency frameworks.
+* **Team Collaboration**
+    * CaSS Authoring Tools supports user and group access to authored competency frameworks.
 * **Customized Competency Properties**
-    * Our Authoring Tools support your organization's unique needs. Use our custom competency properties to customize the abilities of the authoring tool.
+    * The Authoring Tools support organization-specific requirements through custom competency properties that extend the capabilities of the authoring interface.
 * **Work with existing frameworks**
-    * CaSS can import and export a variety of file format and types.  Start working with your existing data.
+    * CaSS can import and export a variety of file format and types.  Existing data can be used immediately.
 
-This document details the functionality of CaSS Authoring Tools and includes detailed instructions for use. If you are looking for help with a specific function of CaSS Authoring Tools, you can navigate to the appropriate section by using the table of contents above. A list of helpful resources and links is also included at the end of this page.
+This document details the functionality of CaSS Authoring Tools and includes detailed instructions for use. Navigation to specific functions is available through the table of contents above. Additional resources and links are provided at the end of this page.
 
 ## Welcome Screen
 
-When first visiting CaSS Authoring Tools, you will be presented with the
+Upon initial access to CaSS Authoring Tools, the application displays the
 **Welcome Screen** which offers simple instructions for getting started.
-More detailed instructions on how CaSS Authoring Tools can be used are
-included in this User Guide.
+Detailed usage instructions are provided in this User Guide.
 
 ![Welcome Page](/v1.5/authoring/welcome-page.png)
 
@@ -49,7 +48,7 @@ application areas:
     alignment/relationships
     - *Documentation* - This CaSS Authoring Tools User Guide
 - **My Directories**
-    - A list of Directories that you have access to
+    - A list of Directories that the user have access to
 - **Taxonomy**
     - *Taxonomies* - Taxonomy search
     - *Import* - Import of taxonomies
@@ -57,7 +56,7 @@ application areas:
 - **Configuration**
     - *Configurations* - Configuration management    
     - *Plugins* - Plugin management    
-- **Users and Groups** - User group management (*this option only appears if you are logged into the application*)
+- **Users and Groups** - User group management (*this option only appears if the user are logged into the application*)
 
 ### Collapsed Navigation Menu
 
@@ -80,7 +79,7 @@ application areas:
 - **Taxonomies** - Taxonomy search
 - **Configurations** - Configuration management        
 - **Plugins** - Plugin management
-- **Users and Groups** - User group management (*this option only appears if you are logged into the application*)
+- **Users and Groups** - User group management (*this option only appears if the user are logged into the application*)
 
 
 ## Application Login
@@ -90,11 +89,11 @@ This section is not applicable to Credential Engine instances of CAT.
 :::
 
 By default, most CAT functionality is available without being logged in.
-You can search for, create, and manage public frameworks, competencies,
+the user can search for, create, and manage public frameworks, competencies,
 and other CaSS data. Some tools, however, will not be available until
 after going through the login process. Accessing secure CaSS data,
-securing your own CaSS data, and explicitly granting access and
-permissions to owned data all requires you to be logged into the
+securing the own CaSS data, and explicitly granting access and
+permissions to owned data all requires the user to be logged into the
 environment. More details about managing user groups and data
 permissions can be found in the corresponding sections.
 
@@ -116,21 +115,21 @@ register their account with the CaSS Authoring Tool.
 
 Once users have successfully entered the required information, they can
 hit ***create*** to begin the registration of their account. Once
-successfully registered, you will be automatically logged into the
+successfully registered, the user will be automatically logged into the
 application.
 
 ![CAT Login - Create Account Submit Button](/v1.5/authoring/create-account-submit-button.png)
 
 ### Logging into an Existing Account
 
-You can login with existing accounts by filling out the appropriate
+the user can login with existing accounts by filling out the appropriate
 fields on the login form and clicking the ***login*** button.
 
 ![CAT Login - Login Button](/v1.5/authoring/login-button.png)
 
 ## Helpful Links
 
-On the right side bar of the CaSS Authoring Tools welcome page you will
+On the right side bar of the CaSS Authoring Tools welcome page the user will
 find a list of documentation, resources, example framework imports,
 options for getting in touch with the CaSS community, and legacy
 applications of CaSS.

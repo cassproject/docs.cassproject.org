@@ -2,7 +2,7 @@
 
 **Adapters** may also be referred to as **Application APIs**.
 
-If the notion of client-side security makes you queasy, or you simply want to own all the data, but still want to operate with CASS, there are options available.
+If the notion of client-side security makes the user queasy, or the user simply want to own all the data, but still want to operate with CASS, there are options available.
 
 It is possible, in CASS, to extend the capabilities of the CASS Repository with additional web service endpoints and functionality. These are known in the CASS Ecosystem as adapters, and provide server-side interoperability for other services or endpoints.
 
@@ -20,7 +20,7 @@ Examples of the above adapters can be found [here](https://github.com/cassprojec
 
 ## Intermediate APIs
 
-If your stack is fundamentally incompatible with CASS, or you wish to centralize security and CASS operations, a common method is to create an intermediate server that invokes CASS operations based on database entries, web services, or other invocation methods.
+If the stack is fundamentally incompatible with CASS, or the user wish to centralize security and CASS operations, a common method is to create an intermediate server that invokes CASS operations based on database entries, web services, or other invocation methods.
 
 The CASS Library is compatible with **Node.js**, a Javascript platform capable of serving web services and interoperating with other technology. These intermediate APIs provide a clean separation between CASS and other systems.
 
@@ -28,7 +28,7 @@ The CASS Library is compatible with **Node.js**, a Javascript platform capable o
 
 #### User Management
 
-CASS has anonymous identifiers built into each object that enable federated and permissioned access to objects. One role of an intermediate API is to translate users internal to your system into these identifiers and, perhaps, manage the identities.
+CASS has anonymous identifiers built into each object that enable federated and permissioned access to objects. One role of an intermediate API is to translate users internal to the system into these identifiers and, perhaps, manage the identities.
 
 ### Performance
 

@@ -3,7 +3,7 @@
 This page outlines performance concerns:
 * Bottlenecks
 * Optimizations we've implemented
-* Features you can use to quicken your application
+* Features The system allows use to quicken the application
 
 ## Overview
 

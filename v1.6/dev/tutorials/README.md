@@ -1,3 +1,3 @@
 # About
 
-These pages offer tutorials for specific use-cases.
+This section provides tutorials for specific use cases.

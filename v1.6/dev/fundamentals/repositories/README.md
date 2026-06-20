@@ -26,7 +26,7 @@ CASS Repositories also support the protection of individual fields in a record. 
 
 ## Code
 
-Creating an interface between your application and a repository is accomplished as follows:
+Creating an interface between the application and a repository is accomplished as follows:
 
 1. Instantiate a Repository object and set up the endpoint.
     ```js
@@ -57,8 +57,8 @@ Every object’s identifier is the URL from which the object should be retrieved
         ```js
         t.assignId(repo.selectedServer, "MyId1");
         ```
-3. You may then access two forms of the ID:
-    * The **Long Form** includes the version number and should be used when you need to refer to an immutable version of the object that is not subject to subsequent updates.
+3. one may then access two forms of the ID:
+    * The **Long Form** includes the version number and should be used when the user need to refer to an immutable version of the object that is not subject to subsequent updates.
         ```js
         t.id;
         ```

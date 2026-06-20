@@ -1,6 +1,6 @@
-# Node.js
+﻿# Node.js
 
-This guide assumes you have installed and configured [Node.js/NPM](https://nodejs.org/).
+This guide assumes the user have installed and configured [Node.js/NPM](https://nodejs.org/).
 
 1. Open a shell/command prompt with Node configured in the path.
 
@@ -43,6 +43,6 @@ This guide assumes you have installed and configured [Node.js/NPM](https://nodej
     );
     ```
 
-6. If you get the names output to the console, you’re ready to go. Check out the other guides for more information.
+6. If the user get the names output to the console, the setup is complete. Check out the other guides for more information.
 
 For more, check out the [JavaScript Tutorial](../javascript/).

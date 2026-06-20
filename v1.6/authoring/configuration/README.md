@@ -47,7 +47,7 @@ After creating a new configuration or selecting the ***manage*** action on an ex
 
 ![General Details](/v1.5/authoring/general-details.png)
 
-The general details configuration settings provide fields for editing the ***name*** and ***description*** of the configuration. From this section you can also toggle the ***instance default*** switch and set your browser default.
+The general details configuration settings provide fields for editing the ***name*** and ***description*** of the configuration. From this section The system allows also toggle the ***instance default*** switch and set the browser default.
 
 ::: tip Note
 Only a single configuration can be set to the instance default at any given time. In order to change the instance default, the owner of the current instance default must toggle the default switch off. At that point, another configuration can be set as the instance default.

@@ -60,7 +60,7 @@ https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework
 
 * Indicates the type of the object
 * Accelerates lookup
-* Nice-to-have in situations where you want the URL to distinguish between types of objects
+* Nice-to-have in situations where the user want the URL to distinguish between types of objects
 
 ### Identifier
 

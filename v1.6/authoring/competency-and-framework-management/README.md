@@ -1,25 +1,25 @@
-# Finding and Editing
+﻿# Finding and Editing
 
 Competency frameworks can be viewed and managed in CaSS Authoring Tools by navigating to the ***Frameworks*** page. The Frameworks page can be visited by clicking on the ***Frameworks*** button on the left sidebar highlighted by the red box in the image below.
 
 ![CAT Competency Framework Management - Frameworks Page](/v1.5/authoring/frameworks-page.png)
 
 On this page, frameworks are shown with their names in bold. Beneath the
-name, you can see how many competencies are in the framework, when it
-was created and last modified. If you have permission to edit the
+name, The system allows see how many competencies are in the framework, when it
+was created and last modified. If the user have permission to edit the
 framework, it will say “*Editable*”.
 
 ## Sorting and Filtering Frameworks
 
-You can sort and filter the list of frameworks by clicking the filter
+the list can be sorted and filtered of frameworks by clicking the filter
 button next to the search bar. The button next to it clears any filters
-you’ve applied.
+has been applied.
 
 ![CAT Competency Framework Management - Filter Button](/v1.5/authoring/filter-frameworks-button.png)
 
 
 The filter button will open up a side panel to the right of the
-framework list with options to sort, filter, and apply your search term
+framework list with options to sort, filter, and apply the search term
 to various fields.
 
 ![CAT Competency and Framework Management - Filter and Sort Panel](/v1.5/authoring/filter-and-sort-panel.png)
@@ -54,55 +54,55 @@ A new competency framework can be created within CaSS Authoring Tools by pressin
 
 ![CAT Competency Framework Management - Create New Framework](/v1.5/authoring/create-new-framework.png)
 
-When you click on the ***Create New*** button to create a new competency framework, you will be required to enter a *Framework Name* and *Framework description* to your new competency framework. Additional properties can be added to a competency framework that are controlled by CaSS Authoring Tools’ configuration settings. For more information about configuration settings and managing the properties of competency frameworks, see the ***Custom Framework Properties*** section of this user guide under ***Competency Framework and Competency Configuration***.
+When the user click on the ***Create New*** button to create a new competency framework, the system will be required to enter a *Framework Name* and *Framework description* to the new competency framework. Additional properties can be added to a competency framework that are controlled by CaSS Authoring Tools’ configuration settings. For more information about configuration settings and managing the properties of competency frameworks, see the ***Custom Framework Properties*** section of this user guide under ***Competency Framework and Competency Configuration***.
 
 ## Adding Competencies
 
-To add competencies to your framework, click the ***add competency*** button below the framework details.
+To add competencies to the framework, click the ***add competency*** button below the framework details.
 
 ![CAT Competency Framework Management - Add Competencies](/v1.5/authoring/add-competencies.png)
 
-You can construct a hierarchy of competencies by checking the box to the left of a competency. The ***add competency*** button text will change to ***add child***, which you can click to place a competency underneath the one you’ve checked.
+A hierarchy can be constructed of competencies by checking the box to the left of a competency. The ***add competency*** button text will change to ***add child***, which The system allows click to place a competency underneath the one has been checked.
 
 ![CAT Competency Framework Management - Add Children to Competencies](/v1.5/authoring/add-children-competencies.png)
 
 ## Editing Frameworks and Competencies
 
-To edit a single competency or framework, hover over the item you want to edit and an edit icon will appear. Click the icon highlighted in red in the image below.
+To edit a single competency or framework, hover over the item the user want to edit and an edit icon will appear. Click the icon highlighted in red in the image below.
 
 ![CAT Competency Framework Management - Edit](/v1.5/authoring/edit-competencies.png)
 
-A modal will appear and you can edit the framework or competency’s properties. This modal also allows you to delete the competency or framework, remove a competency from the current framework without deleting it, and export the object. Click ***done*** when you’ve finished making changes.
+A modal will appear and the properties can be edited for the framework or competency’s properties. This modal also allows the user to delete the competency or framework, remove a competency from the current framework without deleting it, and export the object. Click ***done*** when has been finished making changes.
 
 ![CAT Competency Framework Management - Edit Modal](/v1.5/authoring/edit-modal.png)
 
-You can add new properties to your object from here too by clicking the ***add property*** button at the bottom of the modal. You’ll see a list of properties that are available to add, determined by the configuration you’re using. Select the property you’d like to add, enter in the value, and click ***save property***.
+new properties can be added to the object from here too by clicking the ***add property*** button at the bottom of the modal. the interface will see a list of properties that are available to add, determined by the configuration is using. Select the property is intended to add, enter in the value, and click ***save property***.
 
 ![CAT Competency Framework Management - Add a Property](/v1.5/authoring/add-property.png)
 
-If there’s a property you’d like to add to multiple competencies, use the checkboxes to select the competencies you want to edit and click ***edit multiple***.
+If to add a property is intended to add to multiple competencies, use the checkboxes to select the competencies the user want to edit and click ***edit multiple***.
 
 ![CAT Competency Framework Management - Edit Multiple Competencies](/v1.5/authoring/edit-multiple-competencies.png)
 
-You’ll see a list of properties that are available to add, determined by the configuration you’re using. Select the property you’d like to add, enter the value, and click ***apply to multiple***.
+the interface will see a list of properties that are available to add, determined by the configuration is using. Select the property is intended to add, enter the value, and click ***apply to multiple***.
 
 ![CAT Competency Framework Management - Adding Property to Multiple Competencies](/v1.5/authoring/adding-property-to-multiple.png)
 
-If you make a mistake while editing, click the ***undo*** button in the bar at the top of the page to revert your most recent changes.
+If the user make a mistake while editing, click the ***undo*** button in the bar at the top of the page to revert the most recent changes.
 
 ![CAT Competency Framework Management - Undo Button](/v1.5/authoring/undo-button.png)
 
 ### Changing Competency Hierarchy
 
-There are several ways to move competencies around in the hierarchy. You can drag and drop the competency to the spot you’d like to move it to by hovering over the competency. The icon highlighted in the image below will appear and you can click on it, hold down, and drag the competency to the appropriate position.
+There are several ways to move competencies around in the hierarchy. drag-and-drop is supported for the competency to the spot is intended to move it to by hovering over the competency. The icon highlighted in the image below will appear and The system allows click on it, hold down, and drag the competency to the appropriate position.
 
 ![CAT Competency Framework Management - Drag and Drop](/v1.5/authoring/drag-and-drop.png)
 
-You can also move a competency by selecting its checkbox. Click the cut or copy icon highlighted in red in the image below, select another competency, and click the paste icon.
+The system allows also move a competency by selecting its checkbox. Click the cut or copy icon highlighted in red in the image below, select another competency, and click the paste icon.
 
 ![CAT Competency Framework Management - Cut, Copy, Paste](/v1.5/authoring/cut-copy-paste.png)
 
-With one competency selected, you can move it with keyboard commands as well. You can cut, copy and paste, or use the arrow keys to move it to the position you want.
+With one competency selected, The system allows move it with keyboard commands as well. The system allows cut, copy and paste, or use the arrow keys to move it to the position the user want.
 - **Tab** - Switch focus between elements on the page
 - **Space** - Select the element currently in focus
 - **Shift + X** - Cut competency
@@ -113,22 +113,22 @@ With one competency selected, you can move it with keyboard commands as well. Yo
 
 ## Setting a Configuration
 
-Configurations control which properties you can edit and display within a particular framework, and what types of values they can have. If youdon’t specify a configuration for your framework, the browser, instance, or CaSS default will control the properties. If you want a framework to have a different configuration, you can set one by clicking the
+Configurations control which properties the properties can be edited for and display within a particular framework, and what types of values they can have. If youdon’t specify a configuration for the framework, the browser, instance, or CaSS default will control the properties. If the user want a framework to have a different configuration, The system allows set one by clicking the
 framework configuration button.
 
 ![CAT Competency Framework Management - Setting a Framework Configuration](/v1.5/authoring/setting-a-framework-configuration.png)
 
-This will open up a panel with a list of available configurations to apply. Click ***set as framework default*** next to the configuration you want.
+This will open up a panel with a list of available configurations to apply. Click ***set as framework default*** next to the configuration the user want.
 
 ![CAT Competency Framework Management - Manage Framework Configuration](/v1.5/authoring/manage-framework-configuration.png)
 
 ## Managing Users and Sharing a Framework
 
-To control who can view and edit a framework you own, click the ***manage users*** button highlighted in red in the image below.
+To control who can view and edit a framework the user own, click the ***manage users*** button highlighted in red in the image below.
 
 ![CAT Competency Framework Management - Manage Users Button](/v1.5/authoring/manage-users-button.png)
 
-You can see who the admins and viewers of your framework are, and add or remove users and organizations. This view also has a shareable link to your framework that you can copy to your clipboard and give to someone else.
+The system allows see who the admins and viewers of the framework are, and add or remove users and organizations. This view also has a shareable link to the framework that The system allows copy to the clipboard and give to someone else.
 
 ![CAT Competency Framework Management - Share Framework and Manage Users](/v1.5/authoring/share-framework-and-manage-users.png)
 

@@ -6,7 +6,7 @@ Subgroups can be created within Groups to further organize and define access to 
 
 ## Accessing the CAT User Group Manager
 
-**Important: To access the CAT user group manager, you must be logged into the CAT application.**
+**Important: To access the CAT user group manager, the user must be logged into the CAT application.**
 
 The CAT user group manager can be accessed at any time by selecting the ***users and groups*** icon on the lower left corner of the navigation menu.
 
@@ -53,7 +53,7 @@ To access existing groups in the current CAT instance, click on the group name u
 
 ![User Group Details](/v1.5/authoring/user-group-details.png)
 
-Click on the edit icon next to the ***name*** and ***description*** to edit either of these properties. When you are done editing, click "done editing" to save changes.
+Click on the edit icon next to the ***name*** and ***description*** to edit either of these properties. When it is done editing, click "done editing" to save changes.
 
 ![Edit Group Details](/v1.5/authoring/groups-edit-details.png)
 
@@ -62,7 +62,7 @@ Click on the edit icon next to the ***name*** and ***description*** to edit eith
 Group managers can add and remove members and other managers to the group. Managers also share the owner and reader privileges assigned to the group.
 
 ::: tip
-You cannot remove yourself as a manager from the current group
+the user cannot remove yourself as a manager from the current group
 :::
 
 ![Managers](/v1.5/authoring/managers.png)
@@ -73,7 +73,7 @@ To add managers to a group, click on the ***+ member*** button under ***Group ac
 
  ![Available Managers](/v1.5/authoring/add-managers.png)
 
-In the ***Add members*** dialogue, select the desired permissions next to the name of the member or members you would like to add to the group. The member icon with a shield, as shown above the check box outlined in red below, represents a manager for this group. When you are finished selecting member permissions click "apply".
+In the ***Add members*** dialogue, select the desired permissions next to the name of the member or members the user would like to add to the group. The member icon with a shield, as shown above the check box outlined in red below, represents a manager for this group. When it is finished selecting member permissions click "apply".
 
 ![Available Managers](/v1.5/authoring/available-managers.png)
 
@@ -84,7 +84,7 @@ Group managers can be removed from the group by clicking on the ***remove icon**
 ![Remove Managers](/v1.5/authoring/remove-managers.png)
 
 ::: tip
-You cannot remove yourself as a manager from the current group
+the user cannot remove yourself as a manager from the current group
 :::
 
 #### Reassign Manager
@@ -107,7 +107,7 @@ To add members to a group, click on the ***+ member*** button under ***Group act
 
  ![Available Managers](/v1.5/authoring/add-members.png)
 
-In the ***Add members*** dialogue, select the desired permissions next to the name of the member or members you would like to add to the group. The *member icon without a shield*, as shown above the check box outlined in red below, represents a member for this group. When you are finished selecting member permissions click ***apply***.
+In the ***Add members*** dialogue, select the desired permissions next to the name of the member or members the user would like to add to the group. The *member icon without a shield*, as shown above the check box outlined in red below, represents a member for this group. When it is finished selecting member permissions click ***apply***.
 
 ![Available Managers](/v1.5/authoring/available-members.png)
 

@@ -1,10 +1,10 @@
-# JavaScript
+﻿# JavaScript
 
-Here, we'll demo some of the CaSS Javascript Library features. To do this easily, we'll use the Developer Console in your web browser.
+Here, we'll demo some of the CaSS Javascript Library features. To do this easily, we'll use the Developer Console in the web browser.
 
 ## Browser
 
-1. Navigate [here](https://sandbox.cassproject.org/cass.example/framework.html). Chrome is what this was built under, but any Javascript console should work. This sample page has the CaSS library loaded, meaning you'll be able to use it directly within the browser's console.
+1. Navigate [here](https://sandbox.cassproject.org/cass.example/framework.html). Chrome is what this was built under, but any Javascript console should work. This sample page has the CaSS library loaded, meaning the system will be able to use it directly within the browser's console.
 2. Open the Developer Tools (F12) and switch to the Console.
 3. Clear the console using something resembling 🚫.
 4. Type the following:
@@ -23,7 +23,7 @@ Now let’s do something a bit more interesting, and Create, Update, Read, then 
 EcIdentityManager.default.ids
 ```
 
-2. If the array has identities in it, you’re good to go (skip to step 5). If not, you need to log in.
+2. If the array has identities in it, the setup is complete (skip to step 5). If not, the user need to log in.
 ```js
 m = new EcRemoteIdentityManager();
 m.server = repo.selectedServer; //Sets the identity server endpoint to the repository endpoint
@@ -59,13 +59,13 @@ c.name = "Creating Competencies by hand using CASS.";
 c.description = "Subject can create competencies using CASS in the Javascript Console.";
 ```
 
-8. Lets examine our object one more time and then save it.
+8. Lets examine the object one more time and then save it.
 ```js
 c;
 c.save(console.log,console.log);
 ```
 
-9. Now navigate to your new object’s URL (in a new tab!)
+9. Now navigate to the new object’s URL (in a new tab!)
 ```js
 window.open(c.shortId());
 ```
@@ -75,7 +75,7 @@ window.open(c.shortId());
 c._delete(console.log,console.log);
 ```
 
-11. Refreshing the tab, the object has been deleted. However, the object is versioned, so if you perform the following, it will continue to exist. Examine the difference between the IDs. Note that the version portion of the URL will update automatically upon save. (compare it to the ID in step 6)
+11. Refreshing the tab, the object has been deleted. However, the object is versioned, so if the user perform the following, it will continue to exist. Examine the difference between the IDs. Note that the version portion of the URL will update automatically upon save. (compare it to the ID in step 6)
 ```js
 c.id; // Refers to the the immutable version of the object at that version.
 c.shortId(); // Refers to the latest version of the object.
@@ -91,14 +91,14 @@ f;
 
 ## JavaScript Library
 
-If you'd like to use the JavaScript library, there are several ways of obtaining (or linking to) it:
+If one would like to use the JavaScript library, there are several ways of obtaining (or linking to) it:
 * [GitHub](https://github.com/cassproject/CaSS/tree/master/src/main/js)
 * A [CDN](https://cdn.jsdelivr.net/gh/cassproject/cass@master/src/main/js/cass.js)
 * NPM: npm install [cassproject](https://www.npmjs.com/package/cassproject)
 
 Check out the Links page for a compilation of all relevant links in one location.
 
-If you’re just looking to retrieve competencies or frameworks, here are some examples:
+If the goal is to retrieve competencies or frameworks, here are some examples:
 
 ```js
 EcFramework.get("https://sandbox.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/ce4c0e41-f24c-407d-95af-047bfee429bf",
@@ -122,4 +122,4 @@ EcCompetency.get("https://sandbox.cassproject.org/api/custom/data/schema.casspro
 );
 ```
 
-If you see the alert, you’re ready to go. Check out the other guides for more information.
+If the user see the alert, the setup is complete. Check out the other guides for more information.

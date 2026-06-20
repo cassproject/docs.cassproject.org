@@ -4,7 +4,7 @@ The functional alignment of resource data to competencies requires the following
 1. A unique identifier for the resource
 2. An alignment between the resource and the competency
 
-Let's look at these.
+look at these.
 
 ## 1. A unique identifier for the resource
 
@@ -38,7 +38,7 @@ and is created using the following code:
 
 ```js
 var c = new CreativeWork();
-c.generateId(repo.selectedServer); // (Ensure you have a repo defined in your code)
+c.generateId(repo.selectedServer); // (Ensure the user have a repo defined in the code)
 c.url = "https://www.headsetsdirect.com/headsets-101-ultimate-guide-to-understanding-headsets/";
 c.educationalAlignment = [new AlignmentObject()];
 c.educationalAlignment[0].alignmentType = "teaches";

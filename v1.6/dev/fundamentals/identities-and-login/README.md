@@ -18,7 +18,7 @@ The corresponding PKCS#8 Public Key.
 -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApcFdsnc3RfyHTcOyiLE6jOmqwa1ifr8ZstvO1X4pSfgWNMiLfGMozGRq5gzlRrCnUP5a4z/qQLZhMnMzFgjpak7PvOpmavRaoW8sJqYlANTCNQlaKXODdWPCs0Zj0DNRwW592BJ2m6iHWWoTUhted3+qlgqszH3JmeTxHwrRoNoThSSk+mKadTQ7K5SfmnXjzR/1PnEXN126x+QlZI2PChcYTOG8/wsgjaHNoBlW7cZDKHLfdZUK8Mvat4fSHygapIUpbX/bP32ninwnaa59UIQW7TI6Zf6cHLJv/JKGVoFG8pqg+8lN6YtcAjYJBp4qQii70tDiu/Yhm4592NUczQIDAQAB-----END PUBLIC KEY-----
 ```
 
-Encodings of Private Keys include the Public Key and we denote by “**PPK**” (Public/Private Keypair). “**PK**” is used to denote just the Public Key. CASS refers to the PPK as an ‘*identity*’ and its PK portion is an ‘*identifier*’.
+Encodings of Private Keys include the Public Key and this is denoted by “**PPK**” (Public/Private Keypair). “**PK**” is used to denote just the Public Key. CASS refers to the PPK as an ‘*identity*’ and its PK portion is an ‘*identifier*’.
 
 ## Owners, Readers, Actions and Signature Sheets
 
@@ -44,7 +44,7 @@ Non-privileged actions are:
 * Reading data
     * The repository will trim any encrypted data from the result
 * Creating data
-    * You can create data with @owners, and those owners can be identifiers that you do not have the identities for
+    * The system allows create data with @owners, and those owners can be identifiers that the user do not have the identities for
 
 ## Individuals, Systems, and their relation to Identities
 
@@ -84,7 +84,7 @@ CASS is compatible with any login or SSO system that can store or provide a plac
     ```
 
 :::tip NOTE
-*console.log* and *console.error* are the success and failure methods. If you are doing this in an async environment, such as a web browser, you will need to change console.log into a callback that does the below steps.
+*console.log* and *console.error* are the success and failure methods. If doing this in an async environment, such as a web browser, the system will need to change console.log into a callback that does the below steps.
 :::
 
 2. Begin the login process.
@@ -109,7 +109,7 @@ CASS is compatible with any login or SSO system that can store or provide a plac
     ```
 
 :::tip NOTE
-*console.log* and *console.error* are the success and failure methods. If you are doing this in an async environment, such as a web browser, you will need to change console.log into a callback that does the below steps.
+*console.log* and *console.error* are the success and failure methods. If doing this in an async environment, such as a web browser, the system will need to change console.log into a callback that does the below steps.
 :::
 
 2. Ask the server to create the user, fetch the token for the account it created, generate a key, then commit the key back to the server.

@@ -1,10 +1,10 @@
 # Introduction
 
-Welcome to the CaSS docs!
+This is the CaSS documentation.
 
 CaSS is a system for recording and managing competencies and assertions of competence. It serves as infrastructure for any project that requires defining or tracking the capabilities of people, and supports open data access, shared access, or proprietary access or a combination of the three.
 
-In CaSS, how competencies function is defined by you or your organization with the broadest suggestion that they represent the capabilities of a person. If your organization is task centric, CaSS can hold tasks, subtasks, steps and other task-related items. If your organization is skill based, CaSS can hold skills, knowledge, abilities, etc. This is accomplished by associating a group of competencies with a formal configuration that determines what is tracked, the taxonomy, and all available properties.
+In CaSS, how competencies function is defined by the user or the organization with the broadest suggestion that they represent the capabilities of a person. If the organization is task centric, CaSS can hold tasks, subtasks, steps and other task-related items. If the organization is skill based, CaSS can hold skills, knowledge, abilities, etc. This is accomplished by associating a group of competencies with a formal configuration that determines what is tracked, the taxonomy, and all available properties.
 
 In addition:
  * CaSS is software managed by the CaSS Project, an open source project managed and supported by Eduworks.
@@ -24,21 +24,21 @@ Here are a couple ways that CaSS has been used.
 
 ## Example Use Case
 
-Let's imagine a hypothetical situation that would merit the use of CaSS. A business requires employees to go through lots of training. It would be useful to have a system that keeps track of each employee's progress.
+Consider a hypothetical situation that would merit the use of CaSS. A business requires employees to go through lots of training. It would be useful to have a system that keeps track of each employee's progress.
 
 Using CaSS for this will encompass all current and future needs for the project, and hopefully bring up some questions about how exactly this project will take form.
 
-* CaSS will allow you to declare what exactly each training (aka competency) is
+* CaSS will allow the user to declare what exactly each training (aka competency) is
 * CaSS will allow any individual to make assertions about a user's progress. This includes not just being able to say whether someone can or cannot perform a task, but at what level they can perform at
 * CaSS will provide the tools for making sense of assertions, e.g. they may only be made by a supervisor, they may expire every 6 months, or there may be conflicts or complex interactions between assertions
-* CaSS will allow you to establish relations between competencies. For example, in order to be able to keep the shop clean, you must know how to both mop and either sweep or vacuum
-* CaSS will encrypt and provide permissioning for all stored data. Your coworker probably shouldn't be able to see how well you can perform a task, nor should they be able to modify the requirements for a task
+* CaSS will allow the user to establish relations between competencies. For example, in order to be able to keep the shop clean, the user must know how to both mop and either sweep or vacuum
+* CaSS will encrypt and provide permissioning for all stored data. the coworker probably shouldn't be able to see how well The system allows perform a task, nor should they be able to modify the requirements for a task
 
-Realistically, CaSS is suitable for a much wider array of projects, however. Perhaps you'll require assertions about entire groups of people. Perhaps you're not tracking skills at all. CaSS allows assertions to be made on any competency, skill, knowledge, ability, trait, learning objective, learning outcome, or, really, anything you can think of.
+Realistically, CaSS is suitable for a much wider array of projects, however. CaSS also supports require assertions about entire groups of people. Perhaps is not tracking skills at all. CaSS allows assertions to be made on any competency, skill, knowledge, ability, trait, learning objective, learning outcome, or, really, anything The system allows think of.
 
 ## Developers
 
-If you're a developer, consider checking out the [Developer's Guide](/v1.5/dev/overview) once you're familiar with the structure of CaSS to find more information on how to work with it. There you'll find tutorials, code references, API documentation, and helpful links to other resources such as our Github and CaSS Sandbox environment.
+If is a developer, consider checking out the [Developer's Guide](/v1.5/dev/overview) once is familiar with the structure of CaSS to find more information on how to work with it. There the system will find tutorials, code references, API documentation, and helpful links to other resources such as the Github and CaSS Sandbox environment.
 
 ## Explore the interfaces
 
@@ -48,8 +48,8 @@ The [CaSS Authoring Tools](/v1.5/authoring-tool) provide easy to use User Interf
 
 ## Join the community
 
-### Subscribe to our Slack Channel
+### Subscribe to the Slack Channel
 
 Request access to the [CaSS Slack Channel](https://docs.google.com/a/eduworks.com/forms/viewform?bc=transparent&embedded=true&f=Arial%252C%2BVerdana%252C%2Bsans-serif&hl=en&htc=%2523666666&id=1BMaboapV0IaS8iGnCJut2obPZ9y3CWkxXuvy-7krcgE&lc=%2523003965&pli=1&tc=%2523444444&ttl=0) to join the conversation.
 
-You may also [email us](mailto:cass@eduworks.com).
+one may also [email us](mailto:cass@eduworks.com).

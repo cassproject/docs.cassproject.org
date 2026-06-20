@@ -39,4 +39,4 @@ CASS uses two major layers of security:
 1. **Per-Object Security** - The application that creates the data uses encryption to protect data from use by anyone, including the server owner
 2. **Server Security** - Signed requests must be provided for the server to return encrypted information
 
-This two-layer strategy is called "**No Knowledge**" Security or Privacy. It ensures the protection of a user’s data by having the server require both authentic requests to return data and mechanisms to decrypt the data that are not available on the server. This means that, by design, your server may store data that you cannot access.
+This two-layer strategy is called "**No Knowledge**" Security or Privacy. It ensures the protection of a user’s data by having the server require both authentic requests to return data and mechanisms to decrypt the data that are not available on the server. This means that, by design, the server may store data that the user cannot access.

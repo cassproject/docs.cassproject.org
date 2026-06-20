@@ -1,8 +1,8 @@
 # Basics
 
-Using the CASS Libraries, you are able to work with a number of different sets of objects, including those from CASS, Schema.org, and the Credential Engine. CASS objects have a number of additional helper methods that aren’t currently available on the objects from the other groups.
+Using the CASS Libraries, it is able to work with a number of different sets of objects, including those from CASS, Schema.org, and the Credential Engine. CASS objects have a number of additional helper methods that aren’t currently available on the objects from the other groups.
 
-This guide assumes you have a [Repository](/dev/fundamentals/repositories/) defined and an [Identity](/dev/fundamentals/identities-and-login/).
+This guide assumes the user have a [Repository](/dev/fundamentals/repositories/) defined and an [Identity](/dev/fundamentals/identities-and-login/).
 
 ## Overview
 
@@ -64,20 +64,20 @@ An object may have multiple owners and multiple readers.
 
 ## Controlling read access
 
-In our security model, no actor should trust the repository. So, revoking read access involves encrypting the object.
+In the security model, no actor should trust the repository. So, revoking read access involves encrypting the object.
 
 ```js
 var e = await EcEncryptedValue.toEncryptedValue(p);
 ```
 
-Note that this retains and exposes some information about the person object to the repository owner to enable [Search](/dev/fundamentals/search/): The name of the object and the object type are retained. If you would like to remove those, that’s quite alright, but it removes the ability to search by those fields. If you would like to retain any additional fields, you may copy them from the unencrypted object to the encrypted object. This will enable search by those fields (and expose them to the repository owner).
+Note that this retains and exposes some information about the person object to the repository owner to enable [Search](/dev/fundamentals/search/): The name of the object and the object type are retained. If the user would like to remove those, that’s quite alright, but it removes the ability to search by those fields. If the user would like to retain any additional fields, one may copy them from the unencrypted object to the encrypted object. This will enable search by those fields (and expose them to the repository owner).
 
 ```js
 delete e.name;
 delete e.encryptedType;
 ```
 
-To test the effects of encryption, we need to save the object and temporarily remove our identity to see that the object is no longer accessible. The repository protects encrypted objects from discovery, and the encryption protects the object against the repository owner (or server compromise).
+To test the effects of encryption, we need to save the object and temporarily remove the identity to see that the object is no longer accessible. The repository protects encrypted objects from discovery, and the encryption protects the object against the repository owner (or server compromise).
 
 ```js
 await repo.save(e);
@@ -145,7 +145,7 @@ p.shortId();
 
 ## Validating an object
 
-You may validate one or more signatures against one or more owners using the following:
+one may validate one or more signatures against one or more owners using the following:
 
 ```js
 p.verify(); // Returns whether the object is valid.

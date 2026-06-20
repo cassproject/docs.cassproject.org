@@ -63,11 +63,11 @@ Select the desired relationship type from the dropdown.
 
 ![CAT Crosswalk Frameworks - Relationship Type Selection](/v1.5/authoring/relationship-type-selection.png)
 
-Once a relationship type has been selected, click the ***+ button*** to the right of each competency in the target framework pane you wish to apply the relationship. When clicked, the ***+ button*** will transition into a checkmark. Clicking on this checkmark will remove the relationship.
+Once a relationship type has been selected, click the ***+ button*** to the right of each competency in the target framework pane the user wish to apply the relationship. When clicked, the ***+ button*** will transition into a checkmark. Clicking on this checkmark will remove the relationship.
 
 ![CAT Crosswalk Frameworks - Target Competency Selection](/v1.5/authoring/target-competency-selection.png)
 
-After selecting the desired competencies, click the apply alignments button.  Once applied, you will notice a running tally of added and removed alignments under the crosswalk progress bar.  
+After selecting the desired competencies, click the apply alignments button.  Once applied, the system will notice a running tally of added and removed alignments under the crosswalk progress bar.  
 
 ![CAT Crosswalk Frameworks - Apply Alignments Button.](/v1.5/authoring/apply-alignments-button.png)
 
@@ -85,11 +85,11 @@ To remove an existing relationship click on the corresponding alignment bubble u
 
 ![CAT Crosswalk Frameworks - Alignment Bubble](/v1.5/authoring/alignment-bubble.png)
 
-In the target pane, click on the checkmark icon to the right of the competency you wish to remove from the relationship. When clicked, the checkmark icon will transition into a + button.
+In the target pane, click on the checkmark icon to the right of the competency the user wish to remove from the relationship. When clicked, the checkmark icon will transition into a + button.
 
 ![CAT Crosswalk Frameworks - Target Competency Removal](/v1.5/authoring/target-competency-removal.png)
 
-After removing the undesired competencies, click the apply alignments button. Once applied, you will notice a running tally of added and removed alignments under the crosswalk progress bar.  
+After removing the undesired competencies, click the apply alignments button. Once applied, the system will notice a running tally of added and removed alignments under the crosswalk progress bar.  
 
 ![CAT Crosswalk Frameworks - Apply Alignments Button.](/v1.5/authoring/apply-alignment-bubble.png)
 
@@ -104,17 +104,17 @@ To save all changes made during the crosswalk session to the repository, click o
 The summary screen will be displayed detailing the overall alignment changes between the two frameworks and the framework application selector. By default, all owned or editable frameworks used in the crosswalk will be checked. A check mark next the framework means all alignment/relationship changes made will be applied to that framework.
 
 :::tip Note
-You may only apply alignment changes to frameworks that you own or can edit.
+one may only apply alignment changes to frameworks that the user own or can edit.
 :::
 
 ![CAT Crosswalk Frameworks - Crosswalk Alignment Summary](/v1.5/authoring/alignment-summary.png)
 
 ![CAT Crosswalk Frameworks - Framework Application Selection](/v1.5/authoring/framework-application-selection.png)
 
-If you wish to make further changes to the alignments, click on the ***continue editing*** button.
+If the user wish to make further changes to the alignments, click on the ***continue editing*** button.
 
 ![CAT Crosswalk Frameworks - Continue Editing Button](/v1.5/authoring/continue-editing.png)
 
-When you are satisfied with your changes, click on the ***save alignments*** button.
+When it is satisfied with the changes, click on the ***save alignments*** button.
 
 ![CAT Crosswalk Frameworks - Save Alignments Button](/v1.5/authoring/save-alignments.png)

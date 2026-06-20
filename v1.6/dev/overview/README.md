@@ -14,7 +14,7 @@ CaSS is composed of four major subsystems that can be deployed and scaled indepe
 - **Protocol Adapters** — Pluggable cartridges that expose or consume external standards. Built-in adapters include CTDL-ASN, IMS CASE, ASN, Open Badges, xAPI, PNA, Ollama, MCP, JSON-LD, Replication, and SCD.
 
 ::: tip
-Each subsystem lives in its own repository under [github.com/cassproject](https://github.com/cassproject). You can run the full stack with a single `docker compose up`, or deploy components individually.
+Each subsystem lives in its own repository under [github.com/cassproject](https://github.com/cassproject). The system allows run the full stack with a single `docker compose up`, or deploy components individually.
 :::
 
 ## Technology Stack
@@ -130,6 +130,6 @@ Ready to dive in? The following pages walk through setup and first steps:
 
 - **[Installation](../cass-installation/)** — Run CaSS locally with Docker, npm, or from source.
 - **[Configuration](../cass-configuration/)** — Environment variables, Elasticsearch tuning, TLS, and OIDC setup.
-- **[Hello World](../cass-library-hello-world/)** — Create your first framework and competency with the CaSS Library in JavaScript, Node.js, Java, C#, or PHP.
+- **[Hello World](../cass-library-hello-world/)** — Create the first framework and competency with the CaSS Library in JavaScript, Node.js, Java, C#, or PHP.
 - **[Design Principles](../design-principles/)** — Understand the architectural philosophy behind CaSS.
 - **[Fundamentals](../fundamentals/)** — Deep dives into CaSS objects, the repository API, identity, and assertion processing.

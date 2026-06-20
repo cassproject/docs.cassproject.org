@@ -4,7 +4,7 @@
 
 ## GitHub
 
-Most CaSS-related tools will be found on our organization's [GitHub](https://github.com/cassproject).
+Most CaSS-related tools will be found on the organization's [GitHub](https://github.com/cassproject).
 
 CaSS itself can be located in this [GitHub Repo](https://github.com/cassproject/CASS).
 
@@ -20,7 +20,7 @@ The primary CaSS website may be found at:
 
 ## CaSS Library API
 
-The CaSS Library API allows you to work with data within a CaSS instance. It's highly recommended to use Node.js along with our NPM package.
+The CaSS Library API allows the user to work with data within a CaSS instance. It's highly recommended to use Node.js along with the NPM package.
 
 * [NPM](https://github.com/cassproject/cass-npm)
   | [GitHub](https://github.com/cassproject/CASS/tree/master/src/main/js/cass)
@@ -35,7 +35,7 @@ The schema for CaSS objects is documented [here](http://schema.cassproject.org/)
 
 ## Sandbox
 
-The sandbox is a public site hosting a CaSS instance where you may try CaSS without setting up a CaSS instance yourself, along with a CaSS Editor for easy viewing and editting. There are two sandboxes:
+The sandbox is a public site hosting a CaSS instance where one may try CaSS without setting up a CaSS instance yourself, along with a CaSS Editor for easy viewing and editting. There are two sandboxes:
 
 * [Latest stable version](https://sandbox.cassproject.org/)
 * [Latest unstable version](https://dev.cassproject.org/)
@@ -55,4 +55,4 @@ The following links are helpful resources for already-existing tools that CaSS u
 
 Request access to the [CaSS Slack Channel](https://docs.google.com/a/eduworks.com/forms/viewform?bc=transparent&embedded=true&f=Arial%252C%2BVerdana%252C%2Bsans-serif&hl=en&htc=%2523666666&id=1BMaboapV0IaS8iGnCJut2obPZ9y3CWkxXuvy-7krcgE&lc=%2523003965&pli=1&tc=%2523444444&ttl=0) to join the conversation.
 
-You may also [email us](mailto:cass@eduworks.com).
+one may also [email us](mailto:cass@eduworks.com).

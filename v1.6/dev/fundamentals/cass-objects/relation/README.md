@@ -11,7 +11,7 @@ Relations can, therefore, represent a relationship between two competencies with
 
 ## Relation Types
 
-Relations are directional and labeled. Let's look at the different types.
+Relations are directional and labeled. look at the different types.
 
 ### Narrows
 
@@ -55,7 +55,7 @@ When presenting this relationship, it is useful to append additional names.
 
 A is Related to B describes a relation where two competencies involve some degree of overlap such that interest in A may be followed by interest in B or visa versa.  With set theory we could say that “there exists an intersection between A and B”.
 
-When presenting this relationship, it may be useful to annote with “Did you mean” or “Related: ”, or augment them in search results.
+When presenting this relationship, it may be useful to annote with “Did the user mean” or “Related: ”, or augment them in search results.
 
 * A
   * *Related:*

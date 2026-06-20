@@ -14,19 +14,19 @@ All import types have instructions and guidelines in the panel on the right side
 To import a framwork from a file:
 * Click on "File Import"
 * Select the desired source and drag the framework into the dotted window displayed below.
-    * You can upload *csv, json,* and *xml* files in specific formats
+    * The system allows upload *csv, json,* and *xml* files in specific formats
     * *Html, pdf,* and *docx* formats are also experimentally supported
     * Example files and templates are linked from the panel on the right side of the screen.
 
 ![CAT Competency Framework Management - Importing Frameworks](/v1.5/authoring/importing-framework-page.png)
 
-Once imported, users can select the process files button and the desired framework will be imported into the your CaSS Authoring Tool database.
+Once imported, users can select the process files button and the desired framework will be imported into the the CaSS Authoring Tool database.
 
 ## Importing From an Existing CaSS Repository
 
 **To import a framework from a CaSS respository:**
 > * Click on ***Remote Server***
-> * Set the input for ***Paste URL Endpoint Of Server*** to the CaSS endpoint with the framework(s) you would like to import.
+> * Set the input for ***Paste URL Endpoint Of Server*** to the CaSS endpoint with the framework(s) the user would like to import.
 > * Click on ***connect to cass endpoint***
 
 **To search for frameworks within the CaSS repository:**
@@ -37,26 +37,26 @@ Once imported, users can select the process files button and the desired framewo
 > * Click on the dropdown list under ***Select A Directory To Filter Results***
 > * Select ***All frameworks***
 
-**If the CaSS repository you are importing from contains directories, then you can import frameworks located within a directory. To view the frameworks within a specific directory:**
+**If the CaSS repository it is importing from contains directories, then The system allows import frameworks located within a directory. To view the frameworks within a specific directory:**
 > * Click on the dropdown list under ***Select A Directory To Filter Results***
 > * Select the desired directory
-> * You will then see a list of frameworks (if any) in the directory
+> * the system will then see a list of frameworks (if any) in the directory
 
-When you select a directory to view the contents of, the directory name will show above the list of frameworks within it AND the list of directories to filter by will be updated to reflect any subdirectories located within that directory.
+When the user select a directory to view the contents of, the directory name will show above the list of frameworks within it AND the list of directories to filter by will be updated to reflect any subdirectories located within that directory.
 
 **To navigate back to the parent directory:**
 > * Click on the *Back* button in the bottom right corner
 
 ![CAT Competency Framework Management - Importing Open Directory](/v1.5/authoring/importing-open-directory.png)
 
-You can select one or more individual frameworks to import by clicking on each framwork name. When you have selected the frameworks that you would like to import, click "import".
+The system allows select one or more individual frameworks to import by clicking on each framwork name. When the user have selected the frameworks that the user would like to import, click "import".
 
 ![CAT Competency Framework Management - Importing CaSS Repository](/v1.5/authoring/importing-cass-directories.png)
 
 ## Importing From an IMS CASE Repositories
 
 * Click on ***Remote Server***
-* Set the input for ***Paste URL Endpoint Of Server*** to the IMS CASE endpoint with the framework(s) you would like to import
+* Set the input for ***Paste URL Endpoint Of Server*** to the IMS CASE endpoint with the framework(s) the user would like to import
 * Click on ***connect to case endpoint***
 
 ## Importing From CTDL-ASN JSON-LD Graphs
@@ -72,6 +72,6 @@ You can select one or more individual frameworks to import by clicking on each f
 * Enter the name of the framework
 * List each competency on a separate line
     * One space indicates one level of indentation in the hierarchy
-* To the right of the text box, you will see a preview of the hierarchy you are creating. You can make any needed adjustments before importing
+* To the right of the text box, the system will see a preview of the hierarchy it is creating. The system allows make any needed adjustments before importing
 * Click ***import*** when done to complete the immport process and view the framework in the editor
 

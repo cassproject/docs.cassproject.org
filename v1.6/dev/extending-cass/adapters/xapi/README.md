@@ -74,11 +74,11 @@ for example:
 
 ```https://dev.cassproject.org/api/xapi/statement```
 
-Depending on the LRS, /statements may be appended to the endpoint you provide. Check individual LRS documentation and logs.
+Depending on the LRS, /statements may be appended to the provided endpoint. Consult individual LRS documentation and logs.
 
 ### Polling-Based
 
-If you have only one endpoint to connect, you can just edit ```/etc/adapter.xapi.json```
+For a single endpoint connection, edit ```/etc/adapter.xapi.json```
 ```json
 {
     "enabled": false,
@@ -88,7 +88,7 @@ If you have only one endpoint to connect, you can just edit ```/etc/adapter.xapi
 }
 ```
 
-If you wish to connect to multiple endpoints, you can pass in environment variables with the necessary information:
+For multiple endpoint connections, environment variables can be passed with the necessary information:
 ```json
 "XAPI_CONFIG_1": {
     "xapiAuth": "Basic ...",

@@ -12,9 +12,9 @@ https://sandbox.service.cassproject.org/sky/repo/search?q=(@type:%22http://schem
 ```
 
 3. Should the desired objects be defined in the schema as a protected type or have encrypted fields:
-    * You must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the retrieval of the object. This may be done in one of two ways:
+    * the user must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the retrieval of the object. This may be done in one of two ways:
         * Include the signature sheet as a Multi Part Mime attachment of the HTTP request, this requires the request be a POST.
-        * Alternatively, you may include the signature sheet in a header and use the **q** URL parameter.
+        * Alternatively, one may include the signature sheet in a header and use the **q** URL parameter.
         * See the Put section for instructions to construct a valid signatureSheet signature.
 
 4. Submit a HTTP(S) GET with the above URL.

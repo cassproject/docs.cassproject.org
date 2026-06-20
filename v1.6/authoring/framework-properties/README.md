@@ -119,7 +119,7 @@ By toggling this field on, custom properties of the ***range/type Lang-String***
 This is only available for ***range/type=Text***
 :::
 
-When creating a custom property of ***range/type Text***, you can limit the values allowed to the property. To do this, toggle the ***Limit Values*** field on and click the ***add*** button to begin managing the list of allowable values.
+When creating a custom property of ***range/type Text***, The system allows limit the values allowed to the property. To do this, toggle the ***Limit Values*** field on and click the ***add*** button to begin managing the list of allowable values.
 
 ![Limit Values](/v1.5/authoring/limit-values.png)
 

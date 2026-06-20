@@ -3,7 +3,7 @@
 CaSS v1.6 is configured through **environment variables**, a **persistent volume** (`etc/`), and optional **TLS certificate files**. This page is a comprehensive reference for all available configuration options.
 
 ::: tip Quick Start
-At minimum, you need three environment variables to get CaSS running:
+At minimum, the user need three environment variables to get CaSS running:
 
 ```yaml
 environment:
@@ -184,7 +184,7 @@ Enable authentication through Platform One's identity provider.
 | `CASS_PLATFORM_ONE_AUTH_ENABLED` | Enable Platform One authentication. | `false` |
 
 ::: tip
-Platform One authentication may require additional variables depending on the specific P1 environment. Consult your P1 administrator for the required issuer URLs and client configuration.
+Platform One authentication may require additional variables depending on the specific P1 environment. Consult the P1 administrator for the required issuer URLs and client configuration.
 :::
 
 ---

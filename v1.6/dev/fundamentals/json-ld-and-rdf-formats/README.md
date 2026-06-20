@@ -1,6 +1,6 @@
 # JSON-LD, RDF Formats
 
-CaSS uses [JSON-LD](https://json-ld.org/) for data storage. JSON-LD is a simple, light-weight data format that's also parsable as standard JSON. It exists to provide a standard for holding '**Linked Data**' (LD), which you can think of as meaning links to data (usually in place of the data itself) as values inside standard JSON objects.
+CaSS uses [JSON-LD](https://json-ld.org/) for data storage. JSON-LD is a simple, light-weight data format that's also parsable as standard JSON. It exists to provide a standard for holding '**Linked Data**' (LD), which The system allows think of as meaning links to data (usually in place of the data itself) as values inside standard JSON objects.
 
 JSON-LD is a compromise between rich data modeling formats such as *Turtle* and *RDF-JSON* and the much simpler, easier to use JSON. JSON-LD has many layers of complexity that should be unwrapped slowly. This guide will discuss a few of them necessary to use CASS.
 
@@ -29,7 +29,7 @@ A JSON-LD object is a JSON object that also holds
 Keep in mind:
 * All references to fields or objects in JSON-LD are URLs, instead of IDs or long pointers.
 * A JSON-LD object should be stored and retrievable at the location indicated by its ```@id``` (commonly just ‘*id*’).
-* Navigating to any URL should give you enough information to use the object.
+* Navigating to any URL should give the user enough information to use the object.
 
 ## Context
 
@@ -59,7 +59,7 @@ These fields can be found in any CASS object, such as [this one](https://dev.cas
 
 ## Resources
 
-JSON-LD is aligned with **RDF**, which is an advanced data modeling paradigm and methodology that will not be covered here. Reading the JSON-LD specification is a good start, but the CASS Library attempts to insulate you from RDF as much as possible.
+JSON-LD is aligned with **RDF**, which is an advanced data modeling paradigm and methodology that will not be covered here. Reading the JSON-LD specification is a good start, but the CASS Library attempts to insulate the user from RDF as much as possible.
 
 ## Other RDF Formats
 

@@ -14,9 +14,9 @@ A CASS Framework is a directed graph of competencies, the relations among them, 
 
 Additionally, a CASS Framework does not contain objects, it merely contains references to objects. It may contain versioned references or unversioned references. By default, all operations create unversioned references which refer to the latest version.
 
-You will notice that all references to competencies, relations, and other objects are represented as URLs. This allows frameworks to refer to competencies in the same repository, in a different framework, or on a different repository.
+the system will notice that all references to competencies, relations, and other objects are represented as URLs. This allows frameworks to refer to competencies in the same repository, in a different framework, or on a different repository.
 
-When processing (for instance, determining if a person holds a competency), you will use Frameworks to contextualize the process, bounding the problem to a set of competencies and relations. This is done both to make processing operate in a reasonable amount of time, and to prevent abuse by individuals who make bogus frameworks and relations.
+When processing (for instance, determining if a person holds a competency), the system will use Frameworks to contextualize the process, bounding the problem to a set of competencies and relations. This is done both to make processing operate in a reasonable amount of time, and to prevent abuse by individuals who make bogus frameworks and relations.
 
 ## Creation
 

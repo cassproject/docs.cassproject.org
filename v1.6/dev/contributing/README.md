@@ -1,12 +1,12 @@
 # Contributing
 
-Thanks you for your interest in contributing to CaSS. 
+Thanks the user for the interest in contributing to CaSS. 
 
 Additional governance documentation is available on the [GitHub Community Page](https://github.com/cassproject/CASS/community) for CaSS.
 
 ## Getting Started
 
-Before you contribute, please connect with the CaSS Project group by subscribing to the slack channel, joining the mailing lists, and joining the *#dev* channel on Slack.  Once you have joined the group, please introduce yourself by telling us who you are and what type of contributions you are interested in making. We welcome contributions of:
+Before the user contribute, please connect with the CaSS Project group by subscribing to the slack channel, joining the mailing lists, and joining the *#dev* channel on Slack.  Once the user have joined the group, please introduce yourself by telling us who it is and what type of contributions it is interested in making. We welcome contributions of:
 
 * Issues
 * Tools or applications that use CaSS Libraries
@@ -18,7 +18,7 @@ Please note that all contributions will be reviewed by the governance team or te
 
 ## Getting Help
 
-If you get stuck or find a problem, please file a GitHub and, for more immediate help, contact us via Slack or by emailing [us](mailto:cass@eduworks.com).
+If the user get stuck or find a problem, please file a GitHub and, for more immediate help, contact us via Slack or by emailing [us](mailto:cass@eduworks.com).
 
 ## Development Stack
 
@@ -39,7 +39,7 @@ The CaSS Architecture Slides document, available [here](https://docs.google.com/
 
 ## Contributing
 
-To contribute changes to CaSS, please clone the project to your GitHub and submit changes from your clone to the main project via Pull Requests.  To contribute new libraries or software, please devolop the code on GitHub and assign your project to the CaSS Project Group when complete. 
+To contribute changes to CaSS, please clone the project to the GitHub and submit changes from the clone to the main project via Pull Requests.  To contribute new libraries or software, please devolop the code on GitHub and assign the project to the CaSS Project Group when complete. 
 
 All contributions will be reviewed by Eduworks. Commits of accepted contributions will be made by Eduworks. 
 

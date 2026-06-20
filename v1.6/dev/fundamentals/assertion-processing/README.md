@@ -53,7 +53,7 @@ Similarly, if Subtraction requires Addition, and there is a negative assertion a
 
 The type of assertion processor determines the assumptions that are made in computing some assertion, but scope, identity and access also have factors in making these decisions.
 
-When launching an assertion processor, you should provide all known identities for the individual, all frameworks that your institution observes, and all servers that the individual has records on. Finally, if you do not have access to the necessary records, you may receive results that do not align with reality. The individual, with all their identities, has the best visibility into their competence.
+When launching an assertion processor, the user should provide all known identities for the individual, all frameworks that the institution observes, and all servers that the individual has records on. Finally, if the user do not have access to the necessary records, one may receive results that do not align with reality. The individual, with all their identities, has the best visibility into their competence.
 
 ## Running an Assertion Processor
 

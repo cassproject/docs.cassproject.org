@@ -38,7 +38,7 @@ CaSS Adapters are specialized pieces of code that provide interoperability betwe
 * CaSS can transparently operate using Achievement Standards Network formats, and provides endpoints for writing and reading ASN formatted frameworks.
 
 ### Credential Transparency Description Language
-* CaSS can register resources stored in your CaSS instance with the Credential Engine Registry. *(Beta)*
+* CaSS can register resources stored in the CaSS instance with the Credential Engine Registry. *(Beta)*
 * CaSS can import frameworks in the CTDL-ASN format and schema.
 * CaSS can represent frameworks natively in the CTDL-ASN format and schema.
 * CaSS can import CSV spreadsheets that describe CTDL-ASN frameworks and competencies.

@@ -1,7 +1,7 @@
 # C#
 
 :::danger
-Currently, there is no formal CASS library for C#. If you would like to contribute or begin developing one, see the [contributor section](/dev/contributing/) of this guide.
+Currently, there is no formal CASS library for C#. If the user would like to contribute or begin developing one, see the [contributor section](/dev/contributing/) of this guide.
 :::
 
 ## JavaScript Interpreter
@@ -10,11 +10,11 @@ Several JavaScript interpreters have been written for C#, however, it is unclear
 
 This type of integration is desirable for continued expansion of supported languages for CASS.
 
-**If this is something you would like to pursue, please get in touch with the lead developer: fritz.ray@eduworks.com**
+**If this is something the user would like to pursue, please get in touch with the lead developer: fritz.ray@eduworks.com**
 
 ## Consuming Data
 
-If you are only intending to consume CASS data, the path is much simpler.
+If only intending to consume CASS data, the path is much simpler.
 
 1. Create a helper method and fetch resources
 ```csharp
@@ -34,7 +34,7 @@ JsonObject obj2 = await c.httpGetJsonObject(obj.GetNamedArray("competency")[0].G
 foo += "\n" + obj2.GetNamedString("name");
 ```
 
-1. If you need to generate an RSA public/private keypair in C#, use NuGet to download a package called BouncyCastle
+1. If the user need to generate an RSA public/private keypair in C#, use NuGet to download a package called BouncyCastle
 ```csharp
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Generators;

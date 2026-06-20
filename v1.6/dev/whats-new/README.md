@@ -2,17 +2,17 @@
 
 CaSS v1.6 is a major release that modernizes the platform across the board — from the server runtime and data layer to the client library and editor. This release introduces reactive event processing with RxJS, migrates the CaSS Editor to Vue 3, adds AI-powered features via Ollama and Model Context Protocol (MCP), hardens security with FIPS compliance and SSRF protections, and delivers significant performance improvements to profile calculation and cryptographic operations.
 
-If you are upgrading from v1.5, read the [Breaking Changes](#breaking-changes) section carefully before proceeding.
+If upgrading from v1.5, read the [Breaking Changes](#breaking-changes) section carefully before proceeding.
 
 ## Breaking Changes
 
 ::: danger
-The following changes may require updates to your existing deployment, custom adapters, or downstream code. Review each item before upgrading.
+The following changes may require updates to the existing deployment, custom adapters, or downstream code. Review each item before upgrading.
 :::
 
 ### 1. Reactive Processing with RxJS (1.6.0)
 
-The server has been refactored to use [RxJS](https://rxjs.dev/) for reactive event processing. If you have custom `server.js` overrides, they will need to be updated to work with the new event bus model. See [Reactive Event Bus](#reactive-event-bus-rxjs) below for details on the new event system.
+The server has been refactored to use [RxJS](https://rxjs.dev/) for reactive event processing. If the user have custom `server.js` overrides, they will need to be updated to work with the new event bus model. See [Reactive Event Bus](#reactive-event-bus-rxjs) below for details on the new event system.
 
 ### 2. Adapter Directory Restructure (1.6.1)
 
@@ -44,11 +44,11 @@ The data layer has been upgraded from Elasticsearch 8.x to **Elasticsearch 9.x**
 
 ### 6. skyRepo.js Refactored (1.6.3)
 
-The monolithic `skyRepo.js` file has been refactored into multiple smaller files for maintainability. If you have custom patches or overrides that reference `skyRepo.js` directly, they will need to be updated to target the appropriate new file(s).
+The monolithic `skyRepo.js` file has been refactored into multiple smaller files for maintainability. If the user have custom patches or overrides that reference `skyRepo.js` directly, they will need to be updated to target the appropriate new file(s).
 
 ### 7. CaSS Library Version Jump
 
-The `cassproject` npm package has been renamed from version **1.5.x** to **5.0.x** to comply with [Semantic Versioning](https://semver.org/). Update your `package.json` dependency accordingly:
+The `cassproject` npm package has been renamed from version **1.5.x** to **5.0.x** to comply with [Semantic Versioning](https://semver.org/). Update the `package.json` dependency accordingly:
 
 ```diff
 - "cassproject": "^1.5.0"
@@ -113,7 +113,7 @@ A **distroless** Docker image variant is now available, providing a minimal atta
 Comprehensive **OpenAPI / Swagger** documentation is now available at `/api/swagger/` on any CaSS instance. The API specification is validated at startup to ensure accuracy.
 
 ::: tip
-Visit `https://your-cass-instance/api/swagger/` to explore the API interactively.
+Visit `https://the-cass-instance/api/swagger/` to explore the API interactively.
 :::
 
 ### MCP Server
@@ -154,7 +154,7 @@ The CaSS JavaScript library has received a major update alongside the server:
 - **Assertion deduplication** — prevents duplicate assertions from accumulating
 
 ::: tip
-The move to native WebCrypto is the single largest performance improvement in the library. If you were previously bottlenecked on assertion decryption or key operations, expect a significant speedup.
+The move to native WebCrypto is the single largest performance improvement in the library. If the user were previously bottlenecked on assertion decryption or key operations, expect a significant speedup.
 :::
 
 ## CaSS Editor Changes
@@ -176,7 +176,7 @@ Additional editor improvements:
 - **ES Module support** — the editor is now fully ESM-compatible
 
 ::: warning
-If you have custom CaSS Editor plugins built against Vue 2 / Vuex, they will need to be migrated to Vue 3 / Pinia.
+If the user have custom CaSS Editor plugins built against Vue 2 / Vuex, they will need to be migrated to Vue 3 / Pinia.
 :::
 
 ## xAPI Adapter Improvements (1.6.9)

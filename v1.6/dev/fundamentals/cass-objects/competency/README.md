@@ -8,7 +8,7 @@ Examples of competencies:
 > * Repairing a solder joint
 > * Installing a CASS Repository on a server
 
-Competencies most commonly exist within a context such as an educational framework, a job role or title, or a knowledge domain. While it is possible to remove a well-described competency from this context, the context helps define the competency. There can be significant information lost when a competency is referenced outside of its framework.
+Competencies most commonly exist within a context such as an educational framework, a job role or title, or a knowledge domain. While The system allows remove a well-described competency from this context, the context helps define the competency. There can be significant information lost when a competency is referenced outside of its framework.
 
 To learn more about frameworks or competencies, visit the [CASS Overview](/guide/overview/).
 

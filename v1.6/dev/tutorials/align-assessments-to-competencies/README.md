@@ -7,15 +7,15 @@ The functional alignment of assessment data to competency data requires the foll
 4. An alignment between the assessment and the competency
 5. An adapter that listens for or watches the assessment system for new data and converts it into assertions
 
-With all requirements satisfied, the following should happen:
+With all requirements satisfied, the following sequence occurs:
 * The assessment system assesses a learner.
 * The assessment system emits a record (xAPI or otherwise) that identifies the learner, identifies the assessment or question, and provides a success/failure or score metric.
 * The assessment adapter receives the record.
 * The assessment adapter looks for alignments in CaSS by the assessment or question identifier.
-* The assessment adapter looks up the student in CaSS by the learner’s identifier.
-* The assessment adapter creates an assertion on behalf of the assessment system that asserts that the assessment system believes the learner holds or does not hold the aligned competency, and optionally provides a confidence based on the score. The assessment system’s record may or may not be attached as evidence.
+* The assessment adapter looks up the student in CaSS by the learner's identifier.
+* The assessment adapter creates an assertion on behalf of the assessment system that asserts that the assessment system believes the learner holds or does not hold the aligned competency, and optionally provides a confidence based on the score. The assessment system's record may or may not be attached as evidence.
 
-Let's dive deeper into each of these requirements.
+Each of these requirements is described in detail below.
 
 ## 1. A unique identifier for the assessment
 
@@ -29,18 +29,18 @@ and an assessment emitted via an xAPI statement has an identifier similar to
 
 ## 2. A competency to be aligned to
 
-This competency should reasonably map to the assessment or assessment question. An assessment competency may have multiple competencies underneath it. This means that the assessment will implicitly make a statement about all of the competencies underneath the competency aligned.
+This competency should reasonably map to the assessment or assessment question. An assessment competency may have multiple competencies underneath it. This means that the assessment implicitly makes a statement about all of the competencies underneath the competency aligned.
 
 ## 3. A data pipeline that emits results from the assessment system
 
 The data pipeline should emit, as a single record:
 * The assessment or question ID
 * An identifier for the individual
-    * This identifier, if an email, maps to a Person Object’s email address [\[schema\]](https://schema.org/email)
-    * This identifier, if any other identifier, maps to a Person Object’s identifier [\[schema\]](https://schema.org/identifier)
+    * This identifier, if an email, maps to a Person Object's email address [\[schema\]](https://schema.org/email)
+    * This identifier, if any other identifier, maps to a Person Object's identifier [\[schema\]](https://schema.org/identifier)
 * A score, which represents pass, fail, or that can be bounded between 0-1
 
-As an example, here is an xAPI statement that does the above:
+The following is an example xAPI statement satisfying these requirements:
 ```json
 {
     "authority": {
@@ -89,7 +89,7 @@ As an example, here is an xAPI statement that does the above:
 
 ## 4. An alignment between the assessment and the competency
 
-A resource or assessment alignment in CaSS looks like this:
+A resource or assessment alignment in CaSS is structured as follows:
 ```json
 {
     "@type": "CreativeWork",
@@ -107,7 +107,7 @@ A resource or assessment alignment in CaSS looks like this:
 }
 ```
 
-and is created using the following code:
+The following code creates this alignment:
 
 ```js
 var c = new CreativeWork();
@@ -125,6 +125,6 @@ The CaSS Dashboard (**cass-vlrc**) can do this. Navigate to the competency, clic
 
 ## 5. An adapter that listens for or watches the assessment system for new data and converts it into assertions
 
-The CaSS [xAPI Adapter](/v1.5/dev/extending-cass/adapters/xapi) does this.
+The CaSS [xAPI Adapter](/v1.5/dev/extending-cass/adapters/xapi) performs this function.
 
-Other CaSS adapters could be created that do this, as well as other code that can use the CaSS Library. To see details about how the CaSS xAPI Adapter does this, you can read the code [here](https://github.com/cassproject/CASS/blob/master/src/main/resources/c-adapter/xapi/xapi.js).
+Other CaSS adapters can be created to serve the same purpose, as can other code that uses the CaSS Library. Details on how the CaSS xAPI Adapter performs this function are available in the source code [here](https://github.com/cassproject/CASS/blob/master/src/main/resources/c-adapter/xapi/xapi.js).

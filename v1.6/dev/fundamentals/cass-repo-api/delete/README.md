@@ -11,7 +11,7 @@ To delete an object from a CaSS Repository:
         * For registering data retrieved from another server, a typical identifier for storage in CaSS is the MD5 hash of the @id field.
     * **Version:** Numerical indicator of the version, typically a last modified time in unix format.
 
-2. You must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the deletion of the object. This must be stored in the ```signatureSheet``` header field of the request. See the [Create](../create/) section for instructions to construct a valid signature.
+2. the user must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the deletion of the object. This must be stored in the ```signatureSheet``` header field of the request. See the [Create](../create/) section for instructions to construct a valid signature.
 ```json
 signatureSheet (as header):
 [

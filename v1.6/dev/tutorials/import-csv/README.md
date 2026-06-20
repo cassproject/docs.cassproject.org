@@ -1,8 +1,8 @@
 # Import CSV
 
-Importing competencies from a CSV is a good way of showing how an application would use CaSS.
+Importing competencies from a CSV demonstrates how an application interacts with CaSS.
 
-For each row of the CSV file, we'll generate a Competency object. This pattern may be extrapolated out to SQL based tables or any other relational import.
+For each row of the CSV file, a Competency object is generated. This pattern can be extrapolated to SQL-based tables or any other relational import.
 
 This example uses [PapaParse](http://papaparse.com/), a JavaScript CSV tool, for easier iteration over the CSV.
 
@@ -54,7 +54,7 @@ Papa.parse(
                 else
                     c.generateId(repo.selectedServer);
 
-                // Add ourselves as an owner
+                // Add the identity as an owner
                 if (identity != null)
                     c.addOwner(EcIdentityManager.default.ids[0].ppk.toPk());
 

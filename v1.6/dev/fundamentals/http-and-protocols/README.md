@@ -14,7 +14,7 @@ CASS has the following endpoints exposed by default:
 
 ## HTTPS
 
-The default installation method of CASS is compatible with [LetsEncrypt](https://letsencrypt.org/), a project to provide SSL certificates to anyone. *It is recommended to create a cron job to renew your LetsEncrypt certificate.*
+The default installation method of CASS is compatible with [LetsEncrypt](https://letsencrypt.org/), a project to provide SSL certificates to anyone. *It is recommended to create a cron job to renew the LetsEncrypt certificate.*
 
 Other certificate providers are also supported. Configuration of the server should be done according to the certificate provider instructions.
 

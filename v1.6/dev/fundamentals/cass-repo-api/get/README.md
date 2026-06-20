@@ -12,8 +12,8 @@
     * **Version *(Optional)*:** Numerical indicator of the version, typically a last modified time in unix format. If omitted, the latest version.
 
 2. Should the object be defined in the schema as a protected type or have encrypted fields:
-    * You must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the retrieval of the object. This requires the method type of the HTTP request to be a POST. See the [SignatureSheet Section](TODOTODOTODO) for instructions to construct a valid signature.
-        * Alternatively, you may keep the method type as GET and include the signature sheet in the signatureSheet header as JSON.
+    * the user must include a signatureSheet entry with a valid signature of one of the owners in order to authorize the retrieval of the object. This requires the method type of the HTTP request to be a POST. See the [SignatureSheet Section](TODOTODOTODO) for instructions to construct a valid signature.
+        * Alternatively, one may keep the method type as GET and include the signature sheet in the signatureSheet header as JSON.
 ```json
 signatureSheet (as multi part mime attachment or header):
 [

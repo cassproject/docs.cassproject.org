@@ -1,4 +1,4 @@
-# Finding and Editing
+﻿# Finding and Editing
 
 Directories can be used to orgranize competency frameworks and resources into collections. A directory can contain *subdirectories, frameworks,* and *resources*. Items can be copied or moved into and out-of directories.
 
@@ -6,11 +6,11 @@ Directories can be used to orgranize competency frameworks and resources into co
 
 ## Navigating to a Directory
 
-Directories that you have created or you have access to can be viewed by clicking on a ***Directory icon*** on the left side bar highlighted by the red box in the image below. If you have access to multiple directories, then you will see multiple directory icons (one for each created directory).
+Directories that the user have created or the user have access to can be viewed by clicking on a ***Directory icon*** on the left side bar highlighted by the red box in the image below. If the user have access to multiple directories, then the system will see multiple directory icons (one for each created directory).
 
 ![Directory Management - Directories Icon](/v1.5/authoring/directory-icon.png)
 
-Click on a ***Directory icon*** to open the directory. Once opened, you will see the contents of the selected directory. If the directory does not show any items listed, then it is empty.
+Click on a ***Directory icon*** to open the directory. Once opened, the system will see the contents of the selected directory. If the directory does not show any items listed, then it is empty.
 
 ![Directory Management - Directory List](/v1.5/authoring/directory-list.png)
 
@@ -24,8 +24,8 @@ Click on a directory or subdirectory name in the path to show items within that 
 
 Click on ***CaSS*** in the breadcrumb navigation to show all available items. This list includes:
 * All directories, subdirectories, frameworks, and resources within public directories
-* Directories that you have created
-* Any other directories that you have access to
+* Directories that the user have created
+* Any other directories that the user have access to
 
 ![Directory Management - Directory Path](/v1.5/authoring/directory-cass-link.png)
 
@@ -40,7 +40,7 @@ If a framework exists within a directory, then a link to its parent directory is
 * Double-click on any item within a directory (including another directory) to open that item
 * Opening a **Directory** will show the contents of the directory
 * Opening a **Framework** will show the framework. This navigates away from the Directory page
-* Opening a **Resource** will open the URL of the resource in your browser
+* Opening a **Resource** will open the URL of the resource in the browser
 
 ## Viewing an Item in More Detail
 
@@ -63,16 +63,16 @@ Not all options listed below are available on all items.
     - **Subdirectories** - The number of subdirectories that this directory contains (only available for directories)
     - **Objects** - The number of frameworks and resources that this directory contains (only available for directories)
     - **Parent Directory** - A link to navigate to the parent of this directory (only available for subdirectories)
-    - **Share** - Click on "copy link" and the link to this item will be copied to your clipboard
+    - **Share** - Click on "copy link" and the link to this item will be copied to the clipboard
 
     ![Directory Management - Directory Information Details](/v1.5/authoring/directory-information-details.png)
-- **Users** - Click on "manage users and privacy" and a window dialogue will allow you to view and control access to this item.
+- **Users** - Click on "manage users and privacy" and a window dialogue will allow the user to view and control access to this item.
     ![Directory Management - Directory Information Users](/v1.5/authoring/directory-information-users.png)
 - **Properties** - Available properties on this item, including name and URL (if a resource). Includes option to edit properties if editable
 - **Description** - A description for the item if one has been provided
 - **Copy** - Includes a list of available directories that this item can be copied to
 - **Move** - Includes a list of available directories that this item can be moved to
-- **Delete directory** - Click on the "delete directory" button to delete the currently selected directory. You will need to type in the name of the directory when prompted in order to avoid accidental deletion.
+- **Delete directory** - Click on the "delete directory" button to delete the currently selected directory. the system will need to type in the name of the directory when prompted in order to avoid accidental deletion.
 
 :::danger
 This action is irreversible. Deleting this directory will delete all of its contents and make it unavailable to others who might be using it.
@@ -84,26 +84,26 @@ Use the search bar at the top of the page to type in a search term and then pres
 
 Items that contain the search term and are within the currently open directory (and its subdirectories) will be listed under ***Available Items***. This included Directories, Frameworks, Resources, and Competencies within Frameworks.
 
-You can sort and filter the list of items by clicking the ***filter button*** next to the search bar. The button next to it clears any filters you’ve applied.
+the list can be sorted and filtered of items by clicking the ***filter button*** next to the search bar. The button next to it clears any filters has been applied.
 
 ![CAT Competency Framework Management - Filter Button](/v1.5/authoring/filter-frameworks-button.png)
 
-The filter button will open up a side panel to the right of the ***Available items*** with options to sort, filter, and apply your search term to various fields.
+The filter button will open up a side panel to the right of the ***Available items*** with options to sort, filter, and apply the search term to various fields.
 
 ![CAT Competency and Framework Management - Filter and Sort Panel](/v1.5/authoring/filter-and-sort-panel.png)
 
 ## Making Changes to Directories
 
-You can only make changes to a directory if you are an owner (listed as *Admin*) for the directory. To confirm that you can edit a directory, click on ***CaSS*** in the breadcrumb navigation to show all available items. If the directory has the label ***Editable*** beneath it, then you can make changes to it.
+The system allows only make changes to a directory If an owner (listed as *Admin*) for the directory. To confirm that the properties can be edited for a directory, click on ***CaSS*** in the breadcrumb navigation to show all available items. If the directory has the label ***Editable*** beneath it, then The system allows make changes to it.
 
 ![Directory Management - Directory Editable](/v1.5/authoring/directory-editable.png)
 
 ### Creating a New Directory
 
 To create a new directory (not a subdirectory):
-* Click on the ***create new*** button in the left menu under your login
+* Click on the ***create new*** button in the left menu under the login
 * Select ***Directory*** from the dropdown
-    * A field appears for you to enter in the name of the new directory.
+    * A field appears for the user to enter in the name of the new directory.
 * Enter the name and click ***create***
     * A new directory is created and the *Directory Path* is updated to reflect the location of the new directory.
 
@@ -120,7 +120,7 @@ To rename a directory or edit other properties:
 
 ## Adding Items
 
-You can only add items to a directory if you are an owner (listed as Admin) for the directory.
+The system allows only add items to a directory If an owner (listed as Admin) for the directory.
 
 To add an item to a directory:
 * Open the directory
@@ -135,10 +135,10 @@ A directory can contain *Subdirectories, Frameworks,* and *Resources*.
 To create a new Framework within the current Directory:
 * Click on ***add Framework*** in the dropdown menu
     * A dialogue window opens to create and add properties to a new Framework
-* Click ***Done*** when finished and your framework will be created and opened
+* Click ***Done*** when finished and the framework will be created and opened
 * Click ***go to directory*** at the top of the page
-    * You'll return to the parent directory where the framework has been created
-    * You will see your new framework in the list of directory contents
+    * the system will return to the parent directory where the framework has been created
+    * the system will see the new framework in the list of directory contents
 
 ### Adding a New Subdirectory
 
@@ -164,7 +164,7 @@ A new resource is created and the contents of the Directory is updated to relfec
 
 ## Making Changes to Items
 
-You can only make changes to an item if you are an owner (listed as *Admin*) for the item.
+The system allows only make changes to an item If an owner (listed as *Admin*) for the item.
 
 ### Editing Properties of a Resource
 
@@ -192,7 +192,7 @@ To create a copy of an item in a directory:
 
 ## Moving Items
 
-You can only move items to a directory if you are an owner (listed as *Admin*) for the directory and for the item to be moved.
+The system allows only move items to a directory If an owner (listed as *Admin*) for the directory and for the item to be moved.
 
 To move an item to a directory:
 * Click on the name of the item to be moved to show its Information on the right side panel.
@@ -206,7 +206,7 @@ To move an item to a directory:
 
 ## Remove Item from Directory
 
-You can only remove items from a directory if you are an owner (listed as *Admin*) for the directory and for the item to be removed.
+The system allows only remove items from a directory If an owner (listed as *Admin*) for the directory and for the item to be removed.
 
 To remove an item from a directory:
 * Click on the name of the item to be removed to show its Information on the right side panel
@@ -220,12 +220,12 @@ To remove an item from a directory:
 
 ## Deleting a Directory
 
-You can only delete a directory if you are an owner (listed as *Admin*) for the directory.
+The system allows only delete a directory If an owner (listed as *Admin*) for the directory.
 
 To delete a directory:
 * Click on the name of the directory to be deleted to show its Information on the right side panel.
 * At the bottom of the ***Information panel***, click on the ***delete directory*** button to delete the currently selected directory
-    * For confirmation, you will need to type in the name of the directory when prompted
+    * For confirmation, the system will need to type in the name of the directory when prompted
 
 ::: danger
 This action is irreversible. Deleting this directory will delete all of its contents and make it unavailable to others who might be using it.

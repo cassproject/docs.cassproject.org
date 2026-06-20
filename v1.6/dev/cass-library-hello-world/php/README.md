@@ -1,7 +1,7 @@
 # PHP
 
 :::danger
-Currently, there is no formal CASS library for PHP. If you would like to contribute or begin developing one, see the contributor section of this guide. We welcome contributions in the form of PHP libraries. **If this is something you would like to pursue, please get in touch with the lead developer: [fritz.ray@eduworks.com](mailto:fritz.ray@eduworks.com)**
+Currently, there is no formal CASS library for PHP. If the user would like to contribute or begin developing one, see the contributor section of this guide. We welcome contributions in the form of PHP libraries. **If this is something the user would like to pursue, please get in touch with the lead developer: [fritz.ray@eduworks.com](mailto:fritz.ray@eduworks.com)**
 :::
 
 ## Javascript
@@ -10,7 +10,7 @@ As PHP typically outputs data to a website, we recommend, if possible, doing pro
 
 ## Consuming Data
 
-If you are only intending to consume CASS data, the path is much simpler.
+If only intending to consume CASS data, the path is much simpler.
 
 1. Fetch the resources and decode them as JSON, then use them normally
 ```php

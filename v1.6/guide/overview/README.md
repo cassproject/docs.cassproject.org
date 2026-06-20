@@ -4,7 +4,7 @@ Last updated 2018-12-12
 
 ## Welcome
 
-We sincerely hope your development experience with CASS will be easy and enlightening. Perhaps some of the lessons learned and tools created during its development will benefit you on other projects. -- CASS Team
+ Perhaps some of the lessons learned and tools created during its development will benefit the user on other projects. -- CASS Team
 
 ## About CaSS
 CaSS is open-source software that enables users and other systems to define, store, manage, and access data objects called competencies that are organized into structured collections called frameworks, and to report, store, and retrieve assertions about the competencies held by an individual.
