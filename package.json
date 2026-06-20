@@ -1,0 +1,55 @@
+{
+  "name": "cass-documentation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docs:buildAll": "vuepress build v1.3 && vuepress build v1.4 && vuepress build v1.5 && vuepress build v1.6",
+    "docs:v1.3": "vuepress build v1.3",
+    "docs:v1.4": "vuepress build v1.4",
+    "docs:v1.5": "vuepress build v1.5",
+    "docs:v1.6": "vuepress build v1.6",
+    "docs:dev:v1.3": "vuepress dev v1.3",
+    "docs:dev:v1.4": "vuepress dev v1.4",
+    "docs:dev:v1.5": "vuepress dev v1.5",
+    "docs:dev:v1.6": "vuepress dev v1.6",
+    "docs:dev": "npm run docs:dev:v1.6"
+  },
+  "dependencies": {
+    "chokidar": "^2.1.8",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.8.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

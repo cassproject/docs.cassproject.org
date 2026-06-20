@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/docs/.vuepress/dist/
+v1.3/.vuepress/dist/
+v1.4/.vuepress/dist/
+v1.5/.vuepress/dist/
+v1.6/.vuepress/dist/
+site/
