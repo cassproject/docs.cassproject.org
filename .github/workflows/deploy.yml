@@ -32,8 +32,6 @@ jobs:
 
       - name: Build all versions
         run: npm run docs:buildAll
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Assemble site
         run: |
