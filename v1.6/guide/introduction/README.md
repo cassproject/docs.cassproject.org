@@ -1,7 +1,5 @@
 # Introduction
 
-This is the CaSS documentation.
-
 CaSS is a system for recording and managing competencies and assertions of competence. It serves as infrastructure for any project that requires defining or tracking the capabilities of people, and supports open data access, shared access, or proprietary access or a combination of the three.
 
 In CaSS, how competencies function is defined by the user or the organization with the broadest suggestion that they represent the capabilities of a person. If the organization is task centric, CaSS can hold tasks, subtasks, steps and other task-related items. If the organization is skill based, CaSS can hold skills, knowledge, abilities, etc. This is accomplished by associating a group of competencies with a formal configuration that determines what is tracked, the taxonomy, and all available properties.

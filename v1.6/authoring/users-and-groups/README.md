@@ -4,15 +4,15 @@ In the CaSS authoring environment, user groups allow for multiple users to assum
 
 Subgroups can be created within Groups to further organize and define access to CaSS objects for multiple users.
 
-## Accessing the CAT User Group Manager
+## Accessing the User Group Manager
 
-**Important: To access the CAT user group manager, the user must be logged into the CAT application.**
+**Important: To access the user group manager, the user must be logged into the application.**
 
-The CAT user group manager can be accessed at any time by selecting the ***users and groups*** icon on the lower left corner of the navigation menu.
+The user group manager can be accessed at any time by selecting the ***users and groups*** icon on the lower left corner of the navigation menu.
 
 ![Users and groups](/v1.5/authoring/users-and-groups.png)
 
-**CAT User Group Manager - Navigation Menu - Users and Groups**
+**User Group Manager - Navigation Menu - Users and Groups**
 
 The ***My User Groups*** list contains options for creating a new group, viewing group members, and accessing existing groups.
 
@@ -29,7 +29,7 @@ To create a new group, click on the ***create new group*** button under ***My Us
 A new group is created with a default name and description.
 
 :::tip Note
-There may be noticeable processing time when creating a new group. CAT user groups are assigned identity keys that must be generated at creation time. This process may take several seconds.
+There may be noticeable processing time when creating a new group. user groups are assigned identity keys that must be generated at creation time. This process may take several seconds.
 :::
 
 ## Creating a New Sub-Group
@@ -47,7 +47,7 @@ The actions for managing users and editing groups apply to sub-groups as well.
 
 ## Managing a User Group
 
-To access existing groups in the current CAT instance, click on the group name under ***My User Groups*** to the left of the ***Group Details***.
+To access existing groups in the current instance, click on the group name under ***My User Groups*** to the left of the ***Group Details***.
 
 *Group Details* show the name, description, and a list of members within the group.
 

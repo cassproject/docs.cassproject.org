@@ -88,7 +88,7 @@ application areas:
 This section is not applicable to Credential Engine instances of CAT.
 :::
 
-By default, most CAT functionality is available without being logged in.
+By default, most Editor functionality is available without being logged in.
 the user can search for, create, and manage public frameworks, competencies,
 and other CaSS data. Some tools, however, will not be available until
 after going through the login process. Accessing secure CaSS data,
@@ -100,7 +100,7 @@ permissions can be found in the corresponding sections.
 The ***login button*** can be accessed through the application navigation
 menu.  
 
-![CAT Navigation Menu - Login Button](/v1.5/authoring/login-button.png)
+![Navigation Menu - Login Button](/v1.5/authoring/login-button.png)
 
 ## Creating an Account
 
@@ -108,7 +108,7 @@ From the landing page users have the option to login or create a new
 account to access the CaSS Authoring Tool. At the login page users have
 the option to select ***create account*** shown below.
 
-![CAT Login - Create Account Button](/v1.5/authoring/create-account-button.png)
+![Login - Create Account Button](/v1.5/authoring/create-account-button.png)
 
 From here, users will be prompted to input basic information required to
 register their account with the CaSS Authoring Tool.
@@ -118,14 +118,14 @@ hit ***create*** to begin the registration of their account. Once
 successfully registered, the user will be automatically logged into the
 application.
 
-![CAT Login - Create Account Submit Button](/v1.5/authoring/create-account-submit-button.png)
+![Login - Create Account Submit Button](/v1.5/authoring/create-account-submit-button.png)
 
 ### Logging into an Existing Account
 
 the user can login with existing accounts by filling out the appropriate
 fields on the login form and clicking the ***login*** button.
 
-![CAT Login - Login Button](/v1.5/authoring/login-button.png)
+![Login - Login Button](/v1.5/authoring/login-button.png)
 
 ## Helpful Links
 
@@ -134,7 +134,7 @@ find a list of documentation, resources, example framework imports,
 options for getting in touch with the CaSS community, and legacy
 applications of CaSS.
 
-![CAT Welcome - Helpful Links ](/v1.5/authoring/helpful-links.png)
+![Welcome - Helpful Links ](/v1.5/authoring/helpful-links.png)
 
 ## Get in touch
 

@@ -86,11 +86,11 @@ Items that contain the search term and are within the currently open directory (
 
 the list can be sorted and filtered of items by clicking the ***filter button*** next to the search bar. The button next to it clears any filters has been applied.
 
-![CAT Competency Framework Management - Filter Button](/v1.5/authoring/filter-frameworks-button.png)
+![Competency Framework Management - Filter Button](/v1.5/authoring/filter-frameworks-button.png)
 
 The filter button will open up a side panel to the right of the ***Available items*** with options to sort, filter, and apply the search term to various fields.
 
-![CAT Competency and Framework Management - Filter and Sort Panel](/v1.5/authoring/filter-and-sort-panel.png)
+![Competency and Framework Management - Filter and Sort Panel](/v1.5/authoring/filter-and-sort-panel.png)
 
 ## Making Changes to Directories
 

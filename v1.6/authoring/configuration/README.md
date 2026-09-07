@@ -1,7 +1,7 @@
 # Configurations
 
 ::: tip Note
-This section is not applicable to Credential Engine instances of CAT.
+This section is not applicable to Credential Engine instances of the Editor.
 :::
 
 Configurations control the way frameworks and competencies appear in the editor, as well as what properties,
@@ -17,14 +17,14 @@ then the following priority is made to determine the correct configuration to ap
 Only a single configuration can be set to the instance default at any given time. In order to change the instance default, the owner of the current instance default must toggle the default switch off. At that point, another configuration can be set as the instance default.
 :::
 
-## Accessing the CAT Configuration Manager
+## Accessing the Editor Configuration Manager
 
-The CAT configuration manager can be accessed at any time by selecting the ***configurations*** icon on the
+The Editor configuration manager can be accessed at any time by selecting the ***configurations*** icon on the
 lower left corner of the navigation menu.
 
 ![Configurations Navigation Menu](/v1.5/authoring/configurations.png)
 
-Upon entering the configuration manager, a list of all existing configurations in the current CAT instance are displayed. Public configurations or configurations owned by the current logged in user can be managed or deleted by selecting one of the actions icons to the right of the configuration item. Unowned configurations can be viewed by selecting the appropriate action icon.
+Upon entering the configuration manager, a list of all existing configurations in the current Editor instance are displayed. Public configurations or configurations owned by the current logged in user can be managed or deleted by selecting one of the actions icons to the right of the configuration item. Unowned configurations can be viewed by selecting the appropriate action icon.
 
 ![Configuration Action Browser Default](/v1.5/authoring/browser-default.png)
 
